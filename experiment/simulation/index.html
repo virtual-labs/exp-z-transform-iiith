@@ -1,13 +1,327 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="https://unpkg.com/mathjs@11.2.1/lib/browser/math.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+	<script src="https://cdn.plot.ly/plotly-1.35.2.min.js"></script>
+	<title>Experiment-5 Simulation</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+
+</head>
+
+<body>
+
+	<div class="columns is-centered">
+		<div class="column is-one-quarter v-instruction-title">
+			Tasks
+		</div>
+		<div class="column">
+			<div class="tab">
+				<button class="tablinks" onclick="openPart(event, 'PZ')" , id="default">Pole-Zero (R)</button>
+				<button class="tablinks" onclick="openPart(event, 'PZI')">Pole-Zero (I)</button>
+				<button class="tablinks" onclick="openPart(event, 'ROCB')">ROC-2</button>
+				<!--<button class="tablinks" onclick="openPart(event, 'PLA')">Polynomial</button>-->
+				<button class="tablinks" onclick="openPart(event, 'SYS')">Stability and Causality</button>
+				<button class="tablinks" onclick="openPart(event, 'FIL')">Filtering</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="PZ" class="tabcontent">
+		<section class="imp" id="polez">
+			<div class="max-width">
+				<h2 class="title">Pole-Zero and Magnitude Response</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> <b>Z-Transform is </b>
+								H(z) = \( \frac{(z-a)(z-b)(z-c)}{(z-d)(z-e)(z-f)} \) 
+							</h3>
+							<br>
+							<h3> Fill the values of a, b, c, d, e, f (all real) 
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="imp-content">
+					<div class="column left1">
+						<div class="fill1"> a: &emsp; <input type=number id="fillSec11" value=1 step=0.5> </div>
+						<div class="fill2"> b: &emsp; <input type=number id="fillSec12" value=2 step=0.5> </div>
+						<div class="fill2"> c: &emsp; <input type=number id="fillSec13" value=3 step=0.5> </div>
+					</div>
+					<div class="column left2">
+						<div class="fill1"> d: &emsp; <input type=number id="fillSec14" value=4 step=0.5> </div>
+						<div class="fill2"> e: &emsp; <input type=number id="fillSec15" value=5 step=0.5> </div>
+						<div class="fill2"> f: &emsp; <input type=number id="fillSec16" value=6 step=0.5> </div>
+					</div>
+					<div class="column middle">
+						<div id='figure1'></div>
+					</div>
+					<div class="column right">
+						<div id='figure2'></div>
+					</div>
+				</div>
+				<div class="imp-content1">
+					<div class="column left">
+						<div class="v-datalist-container components-list" style="margin-top: 40%; margin-left: -30%; width:120%;">
+							<div class="v-datalist-title">H(z)</div>
+							<div class="v-datalist-row">
+								<div id="result4"></div>
+							</div>
+						</div>
+						<button class="button9" id="buttonSec11" role="button" onClick="poleZero()">Plot</button>
+					</div>
+					<div class="column middle">
+					</div>
+					<div class="column right">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="PZI" class="tabcontent">
+		<section class="imp" id="polez1">
+			<div class="max-width">
+				<h2 class="title">Pole-Zero and Magnitude Response</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> <b>Z-Transform is </b>
+								H(z) = \( \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})} \) 
+							</h3>
+							<br>
+							<h3> Here \(z_{1}\) and \(z_{2}\) are complex numbers with \(z_{1} = a + jb\) and \(z_{2} = c + jd\)
+							</h3>
+							<br>
+							<h3> Fill the values of a, b, c, d (all real) 
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="imp-content">
+					<div class="column left1">
+						<div class="fill1"> a: &emsp; <input type=number id="fillSec51" value=1 step=0.5> </div>
+						<div class="fill2"> b: &emsp; <input type=number id="fillSec52" value=2 step=0.5> </div>
+					</div>
+					<div class="column left2">
+						<div class="fill1"> c: &emsp; <input type=number id="fillSec53" value=4 step=0.5> </div>
+						<div class="fill2"> d: &emsp; <input type=number id="fillSec54" value=5 step=0.5> </div>
+					</div>
+					<div class="column middle">
+						<div id='figure6'></div>
+					</div>
+					<div class="column right">
+						<div id='figure7'></div>
+					</div>
+				</div>
+				<div class="imp-content1">
+					<div class="column left">
+						<button class="button1" id="buttonSec51" role="button" onClick="poleZeroI()">Plot</button>
+					</div>
+					<div class="column middle">
+					</div>
+					<div class="column right">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="ROCB" class="tabcontent">
+		<section class="sys" id="window">
+			<div class="max-width">
+				<h2 class="title">ROCs</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> Enter the number of ROCs for the given pole zero plot 
+							</h3>
+							<br>
+							<h3> Then enter the ROCs in increasing annular order, as \( [R1, R2] \) for the ROC \( R1 < |z| < R2 \)
+							</h3>
+							<br>
+							<h3> Truncate your answer to two decimals, for example, 0.1283 should be entered as 0.12
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="sys-content">
+					<div class="column left1">
+						<div class="fill1"> Number of ROCs &emsp; <input type=number id="fillSec21"> </div>
+						<div id="wrapper" style="margin-left: -40%;">
+							<div id="field_div"></div>
+						</div>
+						<button class="button1" id="buttonSec31" role="button" onClick="add_field()">Add</button>
+					</div>
+					<div class="column left2">
+						<button class="button1" id="buttonSec21" role="button" onClick="ROCNumber()">Check Number</button>
+						<button class="button2" id="buttonSec32" role="button" onClick="ROCList()">Check</button>
+					</div>
+					<div class="column right">
+						<div id='figure3'></div>
+					</div>
+				</div>
+				<div class="v-datalist-container components-list">
+					<div class="v-datalist-title">Observations</div>
+					<div class="v-datalist-row">
+						<div id="result2"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!--
+	<div id="PLA" class="tabcontent">
+		<section class="mva" id="songs">
+			<div class="max-width">
+				<h2 class="t">Polynomial Coefficients</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> <b>Transfer Function is </b>
+								H(z) = \( \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})} \) 
+							</h3>
+							<br>
+							<h3> Here \(z_{1}\) and \(z_{2}\) are complex numbers with \(z_{1} = a + jb\) and \(z_{2} = c + jd\)
+							</h3>
+							<br>
+							<h3> Fill the values of a, b, c, d (all real) 
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="mva-content">
+					<div class="column left">
+						<div class="fill1"> Numerator Coefficients &emsp; <input type=text id="fillSec41"> </div>
+						<div class="fill2"> Denominator Coefficients &emsp; <input type=text id="fillSec42"> </div>
+						<button class="button2" id="buttonSec42" role="button" onClick="poly()">Check</button>
+					</div>
+					<div class="column right">
+						<div id='figure5'></div>
+					</div>
+				</div>
+				<div class="v-datalist-container components-list" style="margin-top: 10%;">
+					<div class="v-datalist-title">Observations</div>
+					<div class="v-datalist-row">
+						<div id="result3"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>-->
+
+	<div id="SYS" class="tabcontent">
+		<section class="mva" id="system">
+			<div class="max-width">
+				<h2 class="title">Stability and Causality</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> Enter the ROC number in the field as referenced in the ROC List on the left, corresponding to stable and causal
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="mva-content">
+					<div class="column left1">
+						<div class="v-datalist-container components-list">
+							<div class="v-datalist-title">ROCs</div>
+							<div class="v-datalist-row">
+								<div id="rocs1"></div>
+							</div>
+						</div>
+					</div>
+					<div class="column left2">
+						<div class="fill3"> Stability &emsp; <input type=text id="fillSec61"> </div>
+						<div class="fill2"> Causality &emsp; <input type=text id="fillSec62"> </div>
+						<button class="button8" id="buttonSec62" role="button" onClick="stabilityCheck()">Check</button>
+					</div>
+					<div class="column right">
+						<div id='figure8'></div>
+					</div>
+				</div>
+				<div class="v-datalist-container components-list">
+					<div class="v-datalist-title">Observations</div>
+					<div class="v-datalist-row">
+						<div id="result8"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="FIL" class="tabcontent">
+		<section class="blk" id="filter">
+			<div class="max-width">
+				<h2 class="title">Filtering</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> <b>Z-Transform is </b>
+								H(z) = \( \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})} \) 
+							</h3>
+							<br>
+							<h3> Here \(z_{1}\) and \(z_{2}\) are complex numbers with \(z_{1} = a + jb\) and \(z_{2} = c + jd\)
+							</h3>
+							<br>
+							<h3> Fill the values of a, b, c, d (all real) such that the system follows the filter specified on the left
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="blk-content">
+					<div class="column left1">
+						<div class="v-datalist-container components-list">
+							<div class="v-datalist-title">Filter to implement</div>
+							<div class="v-datalist-row">
+								<div id="rocs2"></div>
+							</div>
+						</div>
+						<button class="button9" id="buttonSec82" role="button" onClick="filterCheck()">Check</button>
+					</div>
+					<div class="column left2">
+						<div class="fill5"> a &emsp; <input type=text id="fillSec81"> </div>
+						<div class="fill2"> b &emsp; <input type=text id="fillSec82"> </div>
+						<div class="fill2"> c &emsp; <input type=text id="fillSec83"> </div>
+						<div class="fill2"> d &emsp; <input type=text id="fillSec84"> </div>
+					</div>
+					<div class="column right">
+						<div id='figure9'></div>
+					</div>
+				</div>
+				<div class="v-datalist-container components-list">
+					<div class="v-datalist-title">Observations</div>
+					<div class="v-datalist-row">
+						<div id="result5"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="./js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+
 </body>
+
 </html>

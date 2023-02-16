@@ -2,38 +2,32 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "For a causal system ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The ROC is outside the outermost pole ",
+        "b": "The ROC includes the unit circle ",
+        "c": "The ROC is the entire z-plane ",
+        "d": "The ROC is inside the unit circle "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "explanations": " The ROC is outside the outermost pole"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "Easy"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "For a stable system ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The ROC includes the unit circle",
+        "b": "The ROC is outside the unit circle ",
+        "c": "The ROC is inside the unit circle ",
+        "d": "The ROC is the entire z-plane "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "explanations": "The ROC includes the unit circle"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "Easy"
     }
   ]
 }
