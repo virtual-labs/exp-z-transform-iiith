@@ -341,21 +341,45 @@ function poleZeroInit(){
     };
       
     Plotly.newPlot('figure1', data, layout, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 350,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure1', update);
     Plotly.newPlot('figure2', data1, layout1, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 350,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure2', update);
-    
+    /*
     ln = numerator.length;
     ld = denominator.length;
-    var message = "$ \frac{";
+    var message = "\( \\frac{";
 
     for(var i=0; i<ln; i++)
     {
@@ -369,12 +393,12 @@ function poleZeroInit(){
         message += "(z-" + denominator[i] + ") ";
     }
     
-    message += "} $";
+    message += "} \)";
 
     var element = document.getElementById("result4")
     element.style.color = "#000000";
     element.style.fontWeight = "bold";
-    element.innerHTML = message;
+    element.innerHTML = message;*/
 }
 
 function poleZero(){
@@ -590,21 +614,45 @@ function poleZero(){
     };
       
     Plotly.newPlot('figure1', data, layout, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
+    console.log(screen.width)    
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 350,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure1', update);
     Plotly.newPlot('figure2', data1, layout1, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
-    Plotly.relayout('figure2', update);
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 350,
+            height: 400
+        };
+    }
 
+    Plotly.relayout('figure2', update);
+    /*
     ln = numerator.length;
     ld = denominator.length;
-    var message = "$$ \\frac{";
+    var message = "\( \\frac{";
 
     for(var i=0; i<ln; i++)
     {
@@ -618,12 +666,12 @@ function poleZero(){
         message += "(z-" + denominator[i] + ") ";
     }
     
-    message += "} $$";
+    message += "} \)";
 
     var element = document.getElementById("result4")
     element.style.color = "#000000";
     element.style.fontWeight = "bold";
-    element.innerHTML = message;
+    element.innerHTML = message;*/
 }
 
 // -------------------------------------- Separate CSV -----------------------------------------------------------
@@ -877,16 +925,40 @@ function ROCNumberInit(){
     var config = {responsive: true}
       
     Plotly.newPlot('figure3', data, layout, config);
-      var update = {
-        width: 500,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 500,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure3', update);
     /*Plotly.newPlot('figure4', data, layout, config);
-      var update = {
-        width: 500,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 500,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure4', update);*/
 }
 
@@ -1180,10 +1252,22 @@ function polyInit()
     var config = {responsive: true}
       
     Plotly.newPlot('figure5', data, layout, config);
-      var update = {
-        width: 500,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 500,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure5', update);
 }
 
@@ -1493,17 +1577,69 @@ function poleZeroInitI(){
         };
           
         Plotly.newPlot('figure6', data, layout, config);
-          var update = {
-            width: 375,
-            height: 375
-        };
+            
+        if(screen.width < 400)
+        {
+            var update = {
+                width: 0.7*screen.width,
+                height: 400
+            };
+        }
+        else
+        {
+            var update = {
+                width: 350,
+                height: 400
+            };
+        }
+
         Plotly.relayout('figure6', update);
         Plotly.newPlot('figure7', data1, layout1, config);
-          var update = {
-            width: 375,
-            height: 375
-        };
+            
+        if(screen.width < 400)
+        {
+            var update = {
+                width: 0.7*screen.width,
+                height: 400
+            };
+        }
+        else
+        {
+            var update = {
+                width: 350,
+                height: 400
+            };
+        }
+
         Plotly.relayout('figure7', update);
+        /*
+        lxn = xn.length;
+        lxd = xd.length;
+        lyn = yn.length;
+        lyd = yd.length;
+
+        var message = "\( \\frac{";
+
+        for(var i=0; i<lxn-1; i++)
+        {
+            var value = xn[i]*xn[i] + yn[i]*yn[i];
+            message += "(z^{2} - " + 2*xn[i] + "z + " + value + ") ";
+        }
+
+        message += "}{";
+
+        for(var i=0; i<lxd-1; i++)
+        {
+            var value = xd[i]*xd[i] + yd[i]*yd[i];
+            message += "(z^{2} - " + 2*xd[i] + "z + " + value + ") ";
+        }
+        
+        message += "} \)";
+
+        var element = document.getElementById("result6")
+        element.style.color = "#000000";
+        element.style.fontWeight = "bold";
+        element.innerHTML = message;*/
 }
 
 function poleZeroI(){
@@ -1753,17 +1889,68 @@ function poleZeroI(){
     };
       
     Plotly.newPlot('figure6', data, layout, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 350,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure6', update);
     Plotly.newPlot('figure7', data1, layout1, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 350,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure7', update);
+    /*
+    lxn = xn.length;
+    lxd = xd.length;
+    lyn = yn.length;
+    lyd = yd.length;
+
+    var message = "\( \\frac{";
+
+    for(var i=0; i<lxn-1; i++)
+    {
+        message += "(z^{2} - " + 2*xn[i] + "z + " + xn[i]*xn[i] + yn[i]*yn[i] + ") ";
+    }
+
+    message += "}{";
+
+    for(var i=0; i<ld; i++)
+    {
+        message += "(z^{2} - " + 2*xd[i] + "z + " + xd[i]*xd[i] + yd[i]*yd[i] + ") ";
+    }
+    
+    message += "} \)";
+
+    var element = document.getElementById("result6")
+    element.style.color = "#000000";
+    element.style.fontWeight = "bold";
+    element.innerHTML = message;*/
+
 }
 
 // ------------------------------------------------ Dynamic stability box ----------------------------------
@@ -1996,10 +2183,22 @@ function StabilityInit(){
     var config = {responsive: true}
       
     Plotly.newPlot('figure8', data, layout, config);
-      var update = {
-        width: 500,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 500,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure8', update);
 
     var rocs = [];
@@ -2135,10 +2334,22 @@ function filteringInit(){
     var config = {responsive: true}
       
     Plotly.newPlot('figure9', data, layout1, config);
-      var update = {
-        width: 500,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 500,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure9', update);
 }
 
@@ -2383,10 +2594,22 @@ function filterCheck()
     };
     
     Plotly.newPlot('figure9', data1, layout1, config);
-      var update = {
-        width: 375,
-        height: 375
-    };
+        
+    if(screen.width < 400)
+    {
+        var update = {
+            width: 0.7*screen.width,
+            height: 400
+        };
+    }
+    else
+    {
+        var update = {
+            width: 500,
+            height: 400
+        };
+    }
+
     Plotly.relayout('figure9', update);
 }
 
