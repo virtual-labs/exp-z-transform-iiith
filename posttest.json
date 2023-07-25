@@ -1,0 +1,19 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "For a system with single pole on the real-axis (and no zeros) ",
+      "answers": {
+        "a": "The system with pole in (0,1) acts as a low pass filter ",
+        "b": "The system with pole in (0,1) acts as a high pass filter ",
+        "c": "The system with pole in (-1,0) acts as a low pass filter ",
+        "d": "The system with pole in (-1,0) acts as a high pass filter"
+      },
+      "explanations": {
+        "explanations": "a and d"
+      },
+      "correctAnswer": "a and d",
+      "difficulty": "Advance"
+    }
+  ]
+}

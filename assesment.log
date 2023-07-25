@@ -1,0 +1,42 @@
+=/pretest.json
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/pretest.json'
+  ],
+  files: [
+    '/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/pretest.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+/questions/0/difficulty: Difficulty can only be: beginner, intermediate or advanced
+
+/questions/1/difficulty: Difficulty can only be: beginner, intermediate or advanced
+
+Json Error: must match "then" schema
+Json Error: must match "then" schema
+Failed while validating /home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/pretest.json
+Error: Schema is Invalid
+=/posttest.json
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/posttest.json'
+  ],
+  files: [
+    '/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/posttest.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+/questions/0/difficulty: Difficulty can only be: beginner, intermediate or advanced
+
+Json Error: must match "then" schema
+Json Error: must match "then" schema
+Failed while validating /home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/posttest.json
+Error: Schema is Invalid
