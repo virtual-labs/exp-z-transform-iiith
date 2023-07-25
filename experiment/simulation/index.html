@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./css/main.css">
 	<script src="https://unpkg.com/mathjs@11.2.1/lib/browser/math.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
@@ -29,22 +30,134 @@
 		</div>
 		<div class="column">
 			<div class="tab">
-				<button class="tablinks" onclick="openPart(event, 'ROCB')">ROC</button>
+				<button class="tablinks" onclick="openPart(event, 'ROCB')", id="default">ROC</button>
 				<!--<button class="tablinks" onclick="openPart(event, 'PLA')">Polynomial</button>-->
 				<button class="tablinks" onclick="openPart(event, 'SYS')">Stability and Causality</button>
-				<button class="tablinks" onclick="openPart(event, 'PZ')" , id="default">Pole-Zero (R)</button>
+				<button class="tablinks" onclick="openPart(event, 'PZ')">Pole-Zero (R)</button>
 				<button class="tablinks" onclick="openPart(event, 'PZI')">Pole-Zero (I)</button>
 				<button class="tablinks" onclick="openPart(event, 'FIL')">Filtering</button>
 			</div>
 		</div>
 	</div>
 
+	<div id="ROCB" class="tabcontent">
+		<section class="imp" id="window">
+			<div class="max-width">
+				<h2 class="title">ROCs</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container" style="margin-top: 5%; margin-bottom: 5%; width: 80%; margin-left: -15%;">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> Enter the number of ROCs for the given pole zero plot 
+							</h3>
+							<br>
+							<h3> Then enter the ROCs in increasing annular order, as \( [R1, R2] \) for the ROC \( R1 < |z| < R2 \)
+							</h3>
+							<br>
+							<h3> Truncate your answer to two decimals, for example, 0.1283 should be entered as 0.12
+							</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-8-tablet is-8-mobile">
+				<div class="box-question">
+					<div class="fill1"> Number of ROCs &emsp; <input type=number id="fillSec21"> </div>
+					<div id="wrapper">
+						<div id="field_div"></div>
+					</div>
+					<button class="button1" id="buttonSec31" role="button" onClick="add_field()">Add</button>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-8-tablet is-12-mobile">
+				<div class="box-question">
+					<button class="button1" id="buttonSec21" role="button" onClick="ROCNumber()">Check Number</button>
+					<button class="button2" id="buttonSec32" role="button" onClick="ROCList()">Check</button>
+				</div>
+			</div>
+
+			<div class="column is-6-desktop is-1-tablet is-12-mobile">
+				<div class="box-question">
+					<div class="v-datalist-title">Given</div>
+					<div id="observations1">
+						<div id='figure3' class="figureFirst"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="v-datalist-container components-list" style="margin-left: -20%; width: 90%; margin-bottom: 30%;">
+			<div class="v-datalist-title">Observations</div>
+			<div class="v-datalist-row">
+				<div id="result2"></div>
+			</div>
+		</div>
+	
+		</section>
+	</div>
+
+	<div id="SYS" class="tabcontent">
+		<section class="imp" id="system">
+			<div class="max-width">
+				<h2 class="title">Stability and Causality</h2>
+				<div class="columns is-centered">
+					<div class="v-collapsible-instruction-container v-instruction-container" style="margin-top: 5%; margin-bottom: 5%; width: 80%; margin-left: -15%;">
+						<div class="v-collapsible is-size-5">Instructions</div>
+						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+							<h3> Enter the ROC number in the field as referenced in the ROC List on the left, corresponding to stable and causal
+							</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-10-tablet is-8-mobile" style="margin-left: -5%;">
+				<div class="box-question">
+					<div class="v-datalist-container components-list">
+						<div class="v-datalist-title">ROCs</div>
+						<div class="v-datalist-row">
+							<div id="rocs1"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-2-tablet is-10-mobile">
+				<div class="fill3"> Stabe &emsp; <input type=text id="fillSec61"> </div>
+				<div class="fill4"> Causal &emsp; <input type=text id="fillSec62"> </div>
+				<button class="button8" id="buttonSec62" role="button" onClick="stabilityCheck()">Check</button>
+			</div>
+
+			<div class="column is-6-desktop is-10-tablet is-12-mobile">
+				<div class="box-question">
+					<div class="v-datalist-title">Given</div>
+					<div id="observations1">
+						<div id='figure8' class="figureFirst"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="v-datalist-container components-list" style="margin-left: -10%; width: 90%;  margin-bottom: 30%;">
+			<div class="v-datalist-title">Observations</div>
+			<div class="v-datalist-row">
+				<div id="result8"></div>
+			</div>
+		</div>
+
+		</section>
+	</div>
+
 	<div id="PZ" class="tabcontent">
 		<section class="imp" id="polez">
 			<div class="max-width">
-				<h2 class="title">Pole-Zero and Magnitude Response</h2>
+				<h2 class="title">Pole-Zero and Magnitude Response (Real)</h2>
 				<div class="columns is-centered">
-					<div class="v-collapsible-instruction-container v-instruction-container">
+					<div class="v-collapsible-instruction-container v-instruction-container" style="margin-top: 5%; margin-bottom: 5%; width: 80%; margin-left: -15%;">
 						<div class="v-collapsible is-size-5">Instructions</div>
 						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
 							<h3> <b>Z-Transform is </b>
@@ -56,49 +169,72 @@
 						</div>
 					</div>
 				</div>
-				<div class="imp-content">
-					<div class="column left1">
-						<div class="fill1"> a: &emsp; <input type=number id="fillSec11" value=1 step=0.5> </div>
-						<div class="fill2"> b: &emsp; <input type=number id="fillSec12" value=2 step=0.5> </div>
-						<div class="fill2"> c: &emsp; <input type=number id="fillSec13" value=3 step=0.5> </div>
-					</div>
-					<div class="column left2">
-						<div class="fill1"> d: &emsp; <input type=number id="fillSec14" value=4 step=0.5> </div>
-						<div class="fill2"> e: &emsp; <input type=number id="fillSec15" value=5 step=0.5> </div>
-						<div class="fill2"> f: &emsp; <input type=number id="fillSec16" value=6 step=0.5> </div>
-					</div>
-					<div class="column middle">
-						<div id='figure1'></div>
-					</div>
-					<div class="column right">
-						<div id='figure2'></div>
-					</div>
+
+				<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="fill1"> a: &emsp; <input type=number id="fillSec11" value=1 step=0.5> </div>
+					<div class="fill2"> b: &emsp; <input type=number id="fillSec12" value=2 step=0.5> </div>
+					<div class="fill2"> c: &emsp; <input type=number id="fillSec13" value=3 step=0.5> </div>
 				</div>
-				<div class="imp-content1">
-					<div class="column left">
-						<div class="v-datalist-container components-list" style="margin-top: 40%; margin-left: -30%; width:120%;">
-							<div class="v-datalist-title">H(z)</div>
-							<div class="v-datalist-row">
-								<div id="result4"></div>
-							</div>
-						</div>
-						<button class="button9" id="buttonSec11" role="button" onClick="poleZero()">Plot</button>
-					</div>
-					<div class="column middle">
-					</div>
-					<div class="column right">
+			</div>
+
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="fill1"> d: &emsp; <input type=number id="fillSec14" value=4 step=0.5> </div>
+					<div class="fill2"> e: &emsp; <input type=number id="fillSec15" value=5 step=0.5> </div>
+					<div class="fill2"> f: &emsp; <input type=number id="fillSec16" value=6 step=0.5> </div>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-10-tablet is-12-mobile">
+				<div class="box-question">
+					<div class="v-datalist-title">Pole-Zero Plot</div>
+					<div id="observations1">
+						<div id='figure1'></div>
 					</div>
 				</div>
 			</div>
+
+			<div class="column is-3-desktop is-10-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="v-datalist-title">Filter Response Plot</div>
+					<div id="observations1">
+						<div id='figure2'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<!--<div class="v-datalist-container components-list" style="margin-top: -60%; margin-left: -80%; width:150%;">
+					<div class="v-datalist-title">H(z)</div>
+					<div class="v-datalist-row">
+						<div id="result4"></div>
+					</div>
+				</div>-->
+				<button class="button9" id="buttonSec11" role="button" onClick="poleZero()">Plot</button>
+			</div>
+
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+			</div>
+
+			<div class="column is-3-desktop is-10-tablet is-5-mobile">
+			</div>
+		</div>
+
 		</section>
 	</div>
 
 	<div id="PZI" class="tabcontent">
 		<section class="imp" id="polez1">
 			<div class="max-width">
-				<h2 class="title">Pole-Zero and Magnitude Response</h2>
+				<h2 class="title">Pole-Zero and Magnitude Response (Imaginery)</h2>
 				<div class="columns is-centered">
-					<div class="v-collapsible-instruction-container v-instruction-container">
+					<div class="v-collapsible-instruction-container v-instruction-container" style="margin-top: 5%; margin-bottom: 5%; width: 80%; margin-left: -15%;">
 						<div class="v-collapsible is-size-5">Instructions</div>
 						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
 							<h3> <b>Z-Transform is </b>
@@ -113,87 +249,71 @@
 						</div>
 					</div>
 				</div>
-				<div class="imp-content">
-					<div class="column left1">
-						<div class="fill1"> a: &emsp; <input type=number id="fillSec51" value=1 step=0.5> </div>
-						<div class="fill2"> b: &emsp; <input type=number id="fillSec52" value=2 step=0.5> </div>
-					</div>
-					<div class="column left2">
-						<div class="fill1"> c: &emsp; <input type=number id="fillSec53" value=4 step=0.5> </div>
-						<div class="fill2"> d: &emsp; <input type=number id="fillSec54" value=5 step=0.5> </div>
-					</div>
-					<div class="column middle">
+
+				<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="fill1"> a: &emsp; <input type=number id="fillSec51" value=1 step=0.5> </div>
+					<div class="fill2"> b: &emsp; <input type=number id="fillSec52" value=2 step=0.5> </div>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="fill1"> c: &emsp; <input type=number id="fillSec53" value=4 step=0.5> </div>
+					<div class="fill2"> d: &emsp; <input type=number id="fillSec54" value=5 step=0.5> </div>
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-10-tablet is-12-mobile">
+				<div class="box-question">
+					<div class="v-datalist-title">Pole-Zero Plot</div>
+					<div id="observations1">
 						<div id='figure6'></div>
 					</div>
-					<div class="column right">
+				</div>
+			</div>
+
+			<div class="column is-3-desktop is-10-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="v-datalist-title">Filter Response Plot</div>
+					<div id="observations1">
 						<div id='figure7'></div>
 					</div>
 				</div>
-				<div class="imp-content1">
-					<div class="column left">
-						<button class="button1" id="buttonSec51" role="button" onClick="poleZeroI()">Plot</button>
-					</div>
-					<div class="column middle">
-					</div>
-					<div class="column right">
-					</div>
-				</div>
 			</div>
-		</section>
-	</div>
+		</div>
 
-	<div id="ROCB" class="tabcontent">
-		<section class="sys" id="window">
-			<div class="max-width">
-				<h2 class="title">ROCs</h2>
-				<div class="columns is-centered">
-					<div class="v-collapsible-instruction-container v-instruction-container">
-						<div class="v-collapsible is-size-5">Instructions</div>
-						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
-							<h3> Enter the number of ROCs for the given pole zero plot 
-							</h3>
-							<br>
-							<h3> Then enter the ROCs in increasing annular order, as \( [R1, R2] \) for the ROC \( R1 < |z| < R2 \)
-							</h3>
-							<br>
-							<h3> Truncate your answer to two decimals, for example, 0.1283 should be entered as 0.12
-							</h3>
-						</div>
-					</div>
-				</div>
-				<div class="sys-content">
-					<div class="column left1">
-						<div class="fill1"> Number of ROCs &emsp; <input type=number id="fillSec21"> </div>
-						<div id="wrapper" style="margin-left: -40%;">
-							<div id="field_div"></div>
-						</div>
-						<button class="button1" id="buttonSec31" role="button" onClick="add_field()">Add</button>
-					</div>
-					<div class="column left2">
-						<button class="button1" id="buttonSec21" role="button" onClick="ROCNumber()">Check Number</button>
-						<button class="button2" id="buttonSec32" role="button" onClick="ROCList()">Check</button>
-					</div>
-					<div class="column right">
-						<div id='figure3'></div>
-					</div>
-				</div>
-				<div class="v-datalist-container components-list">
-					<div class="v-datalist-title">Observations</div>
+		<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<!--<div class="v-datalist-container components-list" style="margin-top: -60%; margin-left: -80%; width:150%;">
+					<div class="v-datalist-title">H(z)</div>
 					<div class="v-datalist-row">
-						<div id="result2"></div>
+						<div id="result6"></div>
 					</div>
-				</div>
+				</div>-->
+				<button class="button1" id="buttonSec51" role="button" onClick="poleZeroI()">Plot</button>
 			</div>
+
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+			</div>
+
+			<div class="column is-3-desktop is-10-tablet is-5-mobile">
+			</div>
+		</div>
+
 		</section>
 	</div>
 
 	<!--
 	<div id="PLA" class="tabcontent">
-		<section class="mva" id="songs">
+		<section class="imp" id="songs">
 			<div class="max-width">
 				<h2 class="t">Polynomial Coefficients</h2>
 				<div class="columns is-centered">
-					<div class="v-collapsible-instruction-container v-instruction-container">
+					<div class="v-collapsible-instruction-container v-instruction-container" style="margin-top: 5%; margin-bottom: 5%; width: 80%; margin-left: -15%;">
 						<div class="v-collapsible is-size-5">Instructions</div>
 						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
 							<h3> <b>Transfer Function is </b>
@@ -228,53 +348,12 @@
 		</section>
 	</div>-->
 
-	<div id="SYS" class="tabcontent">
-		<section class="mva" id="system">
-			<div class="max-width">
-				<h2 class="title">Stability and Causality</h2>
-				<div class="columns is-centered">
-					<div class="v-collapsible-instruction-container v-instruction-container">
-						<div class="v-collapsible is-size-5">Instructions</div>
-						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
-							<h3> Enter the ROC number in the field as referenced in the ROC List on the left, corresponding to stable and causal
-							</h3>
-						</div>
-					</div>
-				</div>
-				<div class="mva-content">
-					<div class="column left1">
-						<div class="v-datalist-container components-list">
-							<div class="v-datalist-title">ROCs</div>
-							<div class="v-datalist-row">
-								<div id="rocs1"></div>
-							</div>
-						</div>
-					</div>
-					<div class="column left2">
-						<div class="fill3"> Stability &emsp; <input type=text id="fillSec61"> </div>
-						<div class="fill2"> Causality &emsp; <input type=text id="fillSec62"> </div>
-						<button class="button8" id="buttonSec62" role="button" onClick="stabilityCheck()">Check</button>
-					</div>
-					<div class="column right">
-						<div id='figure8'></div>
-					</div>
-				</div>
-				<div class="v-datalist-container components-list">
-					<div class="v-datalist-title">Observations</div>
-					<div class="v-datalist-row">
-						<div id="result8"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-
 	<div id="FIL" class="tabcontent">
-		<section class="blk" id="filter">
+		<section class="imp" id="filter">
 			<div class="max-width">
 				<h2 class="title">Filtering</h2>
 				<div class="columns is-centered">
-					<div class="v-collapsible-instruction-container v-instruction-container">
+					<div class="v-collapsible-instruction-container v-instruction-container" style="margin-top: 5%; margin-bottom: 5%; width: 80%; margin-left: -15%;">
 						<div class="v-collapsible is-size-5">Instructions</div>
 						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
 							<h3> <b>Z-Transform is </b>
@@ -289,33 +368,45 @@
 						</div>
 					</div>
 				</div>
-				<div class="blk-content">
-					<div class="column left1">
-						<div class="v-datalist-container components-list">
-							<div class="v-datalist-title">Filter to implement</div>
-							<div class="v-datalist-row">
-								<div id="rocs2"></div>
-							</div>
+
+				<div class="columns is-centered is-flex-direction-row is-flex-wrap-wrap is-align-content-start"
+			style="margin-top:-1.5%">
+			<div class="column is-3-desktop is-4-tablet is-10-mobile">
+				<div class="box-question">
+					<div class="v-datalist-container components-list">
+						<div class="v-datalist-title">Filter to implement</div>
+						<div class="v-datalist-row">
+							<div id="rocs2"></div>
 						</div>
-						<button class="button9" id="buttonSec82" role="button" onClick="filterCheck()">Check</button>
 					</div>
-					<div class="column left2">
-						<div class="fill5"> a &emsp; <input type=text id="fillSec81"> </div>
-						<div class="fill2"> b &emsp; <input type=text id="fillSec82"> </div>
-						<div class="fill2"> c &emsp; <input type=text id="fillSec83"> </div>
-						<div class="fill2"> d &emsp; <input type=text id="fillSec84"> </div>
-					</div>
-					<div class="column right">
-						<div id='figure9'></div>
-					</div>
+					<button class="button9" id="buttonSec82" role="button" onClick="filterCheck()">Check</button>
 				</div>
-				<div class="v-datalist-container components-list">
+			</div>
+
+			<div class="column is-3-desktop is-2-tablet is-10-mobile">
+				<div class="fill5"> a &emsp; <input type=text id="fillSec81"> </div>
+				<div class="fill5"> b &emsp; <input type=text id="fillSec82"> </div>
+				<div class="fill5"> c &emsp; <input type=text id="fillSec83"> </div>
+				<div class="fill5"> d &emsp; <input type=text id="fillSec84"> </div>
+			</div>
+
+			<div class="column is-6-desktop is-10-tablet is-5-mobile">
+				<div class="box-question">
 					<div class="v-datalist-title">Observations</div>
-					<div class="v-datalist-row">
-						<div id="result5"></div>
+					<div id="observations1">
+						<div id='figure9' class="figureLast"></div>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="v-datalist-container components-list" style="margin-left: -10%; width: 90%; margin-bottom: 30%;">
+			<div class="v-datalist-title">Observations</div>
+			<div class="v-datalist-row">
+				<div id="result5"></div>
+			</div>
+		</div>
+
 		</section>
 	</div>
 

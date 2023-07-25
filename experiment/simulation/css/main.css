@@ -26,7 +26,7 @@ html{
 
 /* ---------------------------------- Laptops and Desktops ------------------------- */
 
-@media (min-width: 1206px){
+@media (min-width: 1200px){
 
 .max-width{
     max-width: 1300px;
@@ -34,18 +34,11 @@ html{
     margin: auto;
 }
 
-.imp, .sys, .blk, .blk1, .fourier, .haar, .footer{
+.imp{
   font-family: 'Poppins', sans-serif;
 }
 
-.imp .imp-content,
-.sys .sys-content,
-.mva .mva-content,
-.blk .blk-content,
-.blk1 .blk1-content,
-.blok .blok-content,
-.fourier .fourier-content,
-.haar .haar-content{
+.imp{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -59,6 +52,7 @@ section .title{
   font-size: 40px;
   font-weight: 500;
   margin-top: 5%;
+  margin-left: -10%;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -69,396 +63,34 @@ section .title{
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
-.imp .imp-content .left{
-  width: 40%;
-  margin-top: 10%;
-}
-.imp .imp-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.imp .imp-content .left1{
-  width: 20%;
-  margin-top: -10%;
-}
-.imp .imp-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.imp .imp-content .left2{
-  width: 20%;
-  margin-top: -10%;
-}
-.imp .imp-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.imp .imp-content .middle{
-  width: 30%;
-}
-.imp .imp-content .middle .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-.imp .imp-content .right{
-  width: 30%;
-}
-.imp .imp-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
 
-.imp .imp-content1 .left{
-  width: 40%;
-  margin-top: -32%;
-  margin-left: 4%;
-}
-.imp .imp-content1 .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-.sys{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.sys .sys-content .left{
-  width: 30%;
-  margin-top: 10%;
-}
-.sys .sys-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.sys .sys-content .left1{
-  width: 30%;
-  margin-left: -10%;
-}
-.sys .sys-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.sys .sys-content .left2{
-  width: 30%;
-  margin-top: -28%;
-}
-.sys .sys-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.sys .sys-content .right{
-  width: 40%;
-}
-.sys .sys-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-
-.mva{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.mva .mva-content .left{
-  width: 30%;
-  margin-top: 10%;
-}
-.mva .mva-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.mva .mva-content .left1{
-  width: 30%;
-  margin-left: -10%;
-}
-.mva .mva-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.mva .mva-content .left2{
-  width: 30%;
-  margin-top: -18%;
-}
-.mva .mva-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.mva .mva-content .right{
-  width: 40%;
-}
-.mva .mva-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-
-.blk{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.blk .blk-content .left{
-  width: 30%;
-  margin-top: 10%;
-}
-.blk .blk-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk .blk-content .left1{
-  width: 30%;
-  margin-left: -10%;
-}
-.blk .blk-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk .blk-content .left2{
-  width: 30%;
-  margin-top: -10%;
-}
-.blk .blk-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk .blk-content .right{
-  width: 40%;
-}
-.blk .blk-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-
-.blk1{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.blk1 .t{
+.fill1 {
   position: relative;
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 500;
-  margin-top: 0%;
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
-}
-.blk1 .blk1-content{
-  margin-bottom: -10%;
-}
-.blk1 .blk1-content .left{
-  width: 40%;
-  margin-top: 10%;
-}
-.blk1 .blk1-content .left .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk1 .blk1-content .left .img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.blk1 .blk1-content .middle{
-  width: 20%;
-  margin-top: 10%;
-}
-.blk1 .blk1-content .middle1{
-  width: 20%;
-  margin-top: 10%;
-}
-.blk1 .blk1-content .right{
-  width: 40%;
-  margin-top: -10%;
-}
-.blk1 .blk1-content .right1{
-  width: 40%;
-  margin-top: -10%;
-}
-.blk1 .blk1-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-.blk1 .blk1-content .right1 .img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-  }
-.blk1 .blk1-content .right .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk1 .blk1-content .right2{
-  width: 40%;
-  margin-top: -10%;
-}
-.blk1 .blk1-content .right2 .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+  margin-left: 20%;
+  margin-top: 40%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
 }
 
-.blok{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.blok .t{
+.fill2 {
   position: relative;
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 500;
-  margin-top: 0%;
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
-}
-.blok .t1{
-  position: relative;
-  text-align: center;
-  color: #000000;
-  font-size: 20px;
-  font-weight: 250;
-  margin-top: 5%;
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
-}
-.blok .blok-content{
-  margin-bottom: -10%;
-}
-.blok .blok-content .left{
-  width: 40%;
+  margin-left: 20%;
   margin-top: 10%;
-}
-.blok .blok-content .left .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blok .blok-content .left .img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.blok .blok-content .one{
-  width: 20%;
-  margin-top: 10%;
-}
-.blok .blok-content .two{
-  width: 20%;
-  margin-top: 10%;
-}
-.blok .blok-content .three{
-  width: 20%;
-  margin-top: 10%;
-}
-.blok .blok-content .one1{
-  width: 20%;
-  margin-left: -10%;
-  margin-top: -5%;
-}
-.blok .blok-content .two1{
-  width: 20%;
-  margin-left: -10%;
-  margin-top: -5%;
-}
-.blok .blok-content .three1{
-  width: 20%;
-  margin-left: -10%;
-  margin-top: -5%;
-}
-.blok .blok-content .middle{
-  width: 20%;
-  margin-top: 0%;
-}
-.blok .blok-content .middle1{
-  width: 20%;
-  margin-top: -5%;
-}
-.blok .blok-content .right{
-  width: 40%;
-  margin-top: -10%;
-}
-.blok .blok-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-.blok .blok-content .right .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blok .blok-content .right1{
-  width: 40%;
-  margin-top: 2%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
 }
 
 }
 
 /* ----------------------------------------- Tabs ------------------------------------------ */
 
-@media (max-width: 1205px) and (min-width: 720px){
+@media (max-width: 1200px) and (min-width: 720px){
 
   
   .max-width{
@@ -467,18 +99,11 @@ border-radius: 6px;
     margin: auto;
 }
 
-.imp, .sys, .blk, .blk1, .fourier, .haar, .footer{
+.imp{
   font-family: 'Poppins', sans-serif;
 }
 
-.imp .imp-content,
-.sys .sys-content,
-.mva .mva-content,
-.blk .blk-content,
-.blk1 .blk1-content,
-.blok .blok-content,
-.fourier .fourier-content,
-.haar .haar-content{
+.imp{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -492,6 +117,7 @@ section .title{
   font-size: 40px;
   font-weight: 500;
   margin-top: 5%;
+  margin-left: -20%;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -502,403 +128,167 @@ section .title{
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
-.imp .imp-content{
-  margin-top: 10%;
-}
-.imp .imp-content .left{
-  width: 40%;
-  margin-top: 10%;
-}
-.imp .imp-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.imp .imp-content .left1{
-  width: 20%;
-  margin-top: 0%;
-  margin-left: -5%;
-}
-.imp .imp-content .left1 .input[type=text] {
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.imp .imp-content .left2{
-  width: 20%;
-  margin-top: 0%;
-  margin-left: -10%;
-}
-.imp .imp-content .left2 .input[type=text] {
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.imp .imp-content .middle{
-  width: 20%;
-  margin-left: -10%;
-}
-.imp .imp-content .middle .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-.imp .imp-content .right{
-  width: 20%;
-}
-.imp .imp-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
 
-.imp .imp-content1 .left{
-  width: 80%;
-  margin-top: -20%;
-  margin-left: 25%;
-}
-.imp .imp-content1 .left .input[type=text] {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-.sys{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.sys .sys-content .left{
-  width: 30%;
-  margin-top: 10%;
-}
-.sys .sys-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.sys .sys-content .left1{
-  width: 30%;
-  margin-left: -10%;
-}
-.sys .sys-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.sys .sys-content .left2{
-  width: 30%;
-  margin-top: -28%;
-}
-.sys .sys-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.sys .sys-content .right{
-  width: 40%;
-}
-.sys .sys-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-
-.mva{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.mva .mva-content .left{
-  width: 30%;
-  margin-top: 10%;
-}
-.mva .mva-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.mva .mva-content .left1{
-  width: 30%;
-  margin-left: -10%;
-}
-.mva .mva-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.mva .mva-content .left2{
-  width: 30%;
-  margin-top: -18%;
-}
-.mva .mva-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.mva .mva-content .right{
-  width: 40%;
-}
-.mva .mva-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-
-.blk{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.blk .blk-content .left{
-  width: 30%;
-  margin-top: 10%;
-}
-.blk .blk-content .left .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk .blk-content .left1{
-  width: 30%;
-  margin-left: -10%;
-}
-.blk .blk-content .left1 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk .blk-content .left2{
-  width: 30%;
-  margin-top: -10%;
-}
-.blk .blk-content .left2 .input[type=text] {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk .blk-content .right{
-  width: 40%;
-}
-.blk .blk-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-
-.blk1{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.blk1 .t{
+.fill1 {
   position: relative;
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 500;
-  margin-top: 0%;
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
+  margin-left: 40%;
+  margin-top: 40%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
 }
-.blk1 .blk1-content{
-  margin-bottom: -10%;
-}
-.blk1 .blk1-content .left{
-  width: 40%;
+
+.fill2 {
+  position: relative;
+  margin-left: 40%;
   margin-top: 10%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
 }
-.blk1 .blk1-content .left .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+
 }
-.blk1 .blk1-content .left .img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.blk1 .blk1-content .middle{
-  width: 20%;
-  margin-top: 10%;
-}
-.blk1 .blk1-content .middle1{
-  width: 20%;
-  margin-top: 10%;
-}
-.blk1 .blk1-content .right{
-  width: 40%;
-  margin-top: -10%;
-}
-.blk1 .blk1-content .right1{
-  width: 40%;
-  margin-top: -10%;
-}
-.blk1 .blk1-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-.blk1 .blk1-content .right1 .img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
+
+  /* ----------------------------------------- Big Phones ------------------------------------------ */
+
+  @media (max-width: 720px) and (min-width: 420px){
+
+    .max-width{
+      max-width: 720px;
+      padding: 0 80px;
+      margin: auto;
   }
-.blk1 .blk1-content .right .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blk1 .blk1-content .right2{
-  width: 40%;
-  margin-top: -10%;
-}
-.blk1 .blk1-content .right2 .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+  
+  .imp{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .imp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  } /* change orientations here */
+  
+  section .title{
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-left: -10%;
+    width: 70%;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .imp{
+    display: flex;
+    color: #000000; /* Color of Name, and moving text in first page*/
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+  }
 
-.blok{
-  display: flex;
-  color: #000000; /* Color of Name, and moving text in first page*/
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-.blok .t{
-  position: relative;
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 500;
-  margin-top: 0%;
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
-}
-.blok .t1{
-  position: relative;
-  text-align: center;
-  color: #000000;
-  font-size: 20px;
-  font-weight: 250;
-  margin-top: 5%;
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
-}
-.blok .blok-content{
-  margin-bottom: -10%;
-}
-.blok .blok-content .left{
-  width: 40%;
-  margin-top: 10%;
-}
-.blok .blok-content .left .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blok .blok-content .left .img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.blok .blok-content .one{
-  width: 20%;
-  margin-top: 10%;
-}
-.blok .blok-content .two{
-  width: 20%;
-  margin-top: 10%;
-}
-.blok .blok-content .three{
-  width: 20%;
-  margin-top: 10%;
-}
-.blok .blok-content .one1{
-  width: 20%;
-  margin-left: -10%;
-  margin-top: -5%;
-}
-.blok .blok-content .two1{
-  width: 20%;
-  margin-left: -10%;
-  margin-top: -5%;
-}
-.blok .blok-content .three1{
-  width: 20%;
-  margin-left: -10%;
-  margin-top: -5%;
-}
-.blok .blok-content .middle{
-  width: 20%;
-  margin-top: 0%;
-}
-.blok .blok-content .middle1{
-  width: 20%;
-  margin-top: -5%;
-}
-.blok .blok-content .right{
-  width: 40%;
-  margin-top: -10%;
-}
-.blok .blok-content .right .img{
-height: 400px;
-width: 400px;
-object-fit: cover;
-border-radius: 6px;
-}
-.blok .blok-content .right .input[type=text] {
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.blok .blok-content .right1{
-  width: 40%;
-  margin-top: 2%;
-}
+  .figureFirst{
+    margin-left: -25%;
+  }
 
-}
+  .figureLast{
+    margin-left: -60%;
+  }
+
+  .fill1 {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 40%;
+    width: 120%;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    float: left;
+  }
+
+  .fill2 {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 120%;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    float: left;
+  }
+  
+  }
 
   /* ----------------------------------------- Smaller Phones ------------------------------------------ */
 
-@media (max-width: 720px) and (min-width: 100px){
-  
+@media (max-width: 420px){
+
+  .max-width{
+    max-width: 720px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.imp{
+  font-family: 'Poppins', sans-serif;
+}
+
+.imp{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+} /* change orientations here */
+
+section .title{
+  position: relative;
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-left: -5%;
+  width: 90%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.imp{
+  display: flex;
+  color: #000000; /* Color of Name, and moving text in first page*/
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.fill1 {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 40%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
+}
+
+.fill2 {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
+}
+
 }
 
 /* ------------------------------------------ Drop Down ------------------------------------------------------- */
@@ -957,30 +347,20 @@ border-radius: 6px;
   left: 0%;
   transform: translate(-50%, -50%);
 }
-.fill1 {
-  position: relative;
-  margin-left: 65%;
-  margin-top: -10%;
-  width: 120%;
-  top: 0%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  float: left;
-}
-.fill2 {
-  position: relative;
-  margin-left: 65%;
-  margin-top: 10%;
-  width: 120%;
-  top: 0%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  float: left;
-}
 .fill3 {
   position: relative;
   margin-left: 65%;
   margin-top: 80%;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  float: left;
+}
+.fill4 {
+  position: relative;
+  margin-left: 65%;
+  margin-top: 10%;
   width: 120%;
   top: 0%;
   left: 0%;
@@ -1426,12 +806,10 @@ border-radius: 6px;
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.3s;
   font-size: 17px;
 }
 
@@ -1584,7 +962,7 @@ border-radius: 6px;
 {
   width:200%;
   margin-left: -90%;
-  margin-top: 10%;
+  margin-top: 30%;
   font-family:helvetica;
   text-align:center;
 }
