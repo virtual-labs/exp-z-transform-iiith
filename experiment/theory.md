@@ -16,10 +16,10 @@ $\text{z}$ transform always has two parts:
 
 ## Examples: ##  
 
-(i) Let $\text{x}[n] $ be $ \delta[n] = \left\{\begin{matrix}
+(i) Let $\text{x}[n]$ be $$\delta[n] = \left\{\begin{matrix}
 1 \quad ~~~~~~n=0 \\ 
 0 \quad \text{otherwise}
-\end{matrix}\right. $
+\end{matrix}\right.$$
 
 We know that $\text{z}$- tranform can be given as:
 
@@ -93,7 +93,7 @@ $~~~~~\text{x}[n]$ is a causal signal i.e. $\text{x}[n] = 0$ for $n<0$
 
 $~~~~~\text{ROC:} ~|\text{z}| > |a| $
 
-<p align="center"><img src="roc1.png" alt="drawing" width="195"/>
+<p align="center"><img src="images/roc1.png" alt="drawing" width="195"/>
 
 $2.~~\text{x}[n] = -a^n u[-n-1]$ 
 
@@ -107,6 +107,6 @@ $~~~~~\text{x}[n]$ is a anti-causal signal i.e. $\text{x}[n] = 0$ for $n>0$
 
 $~~~~~\text{ROC:} ~|\text{z}| < |a| $
 
-<p align="center"><img src="roc2.png" alt="drawing" width="190"/>
+<p align="center"><img src="images/roc2.png" alt="drawing" width="190"/>
 
-<p align="center"><img src="roc3.png" alt="drawing" width="195"/>
+<p align="center"><img src="images/roc3.png" alt="drawing" width="195"/>
