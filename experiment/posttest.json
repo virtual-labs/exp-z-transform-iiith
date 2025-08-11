@@ -12,8 +12,50 @@
       "explanations": {
         "explanations": "a and d"
       },
-      "correctAnswer": "a and d",
+      "correctAnswer": "a",
       "difficulty": "Advance"
+    },
+    {
+      "question": "What is the effect of a pole near the unit circle in the z-plane?",
+      "answers": {
+        "a": "System becomes unstable",
+        "b": "System becomes more oscillatory",
+        "c": "System becomes more stable",
+        "d": "System becomes less oscillatory"
+      },
+      "explanations": {
+        "explanations": "A pole near the unit circle makes the system more oscillatory."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which property is true for a minimum-phase system?",
+      "answers": {
+        "a": "All zeros are inside the unit circle",
+        "b": "All poles are inside the unit circle",
+        "c": "All zeros are outside the unit circle",
+        "d": "All poles are outside the unit circle"
+      },
+      "explanations": {
+        "explanations": "Minimum-phase systems have all zeros inside the unit circle."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "If the ROC includes the unit circle, the system is:",
+      "answers": {
+        "a": "Stable",
+        "b": "Unstable",
+        "c": "Causal",
+        "d": "Non-causal"
+      },
+      "explanations": {
+        "explanations": "ROC including the unit circle implies stability."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Easy"
     }
   ]
 }

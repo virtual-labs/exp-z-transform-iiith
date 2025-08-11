@@ -27,7 +27,7 @@ The plots are obtained and they represent the pole-zero plot and the magnitude r
 
 #### Pole-Zero (Imaginery)
 
-This section requires entering of values of real and imaginery poles and zeros of a polynomial function given by $$H(z) = \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})}$$ and visualizing the pole-zero plot and the magnitude response when evaluated on the unit circle. Here, we consider conjuage pairs of poles and zeros following that it is a real system. The poles are zeros are specified using $$z_{1} = a+jb,\ z_{2} = c+jd$$ and $a,\ b,\ c,$ and $d$ are real numbers. Click on the "**Plot**" button to visualize the plots. Steps to be done are as follows
+This section requires entering of values of real and imaginery poles and zeros of a polynomial function given by $$H(z) = \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})}$$ and visualizing the pole-zero plot and the magnitude response when evaluated on the unit circle. Here, we consider conjuage pairs of poles and zeros following that it is a real system. The poles are zeros are specified using $$z_{1} = a+jb,\ z_{2} = c+jd$$ and $a,\ b,\ c,$ and $d$ are real numbers. Here, jb and jd denote the imaginary parts of the complex numbers $z_1$ and $z_2$, respectively. Click on the "**Plot**" button to visualize the plots. Steps to be done are as follows
 
 1. Enter the values in any of the four fields (fields can be left empty too), named "**a**", "**b**", "**c**" and "**d**".
 2. Click on "**Plot**" button to visualize the plots in the figures.
@@ -36,7 +36,7 @@ The plots are obtained and they represent the pole-zero plot and the magnitude r
 
 #### Filtering
 
-This section requires entering of values of real and imaginery poles and zeros of a polynomial function given by $$H(z) = \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})}$$ and designing a filter whose magnitude response when evaluated on the unit circle would follow the type of filter as shown in the specification box on the left. Here, we consider conjuage pairs of poles and zeros following that it is a real system. The poles are zeros are specified using $$z_{1} = a+jb,\ z_{2} = c+jd$$ and $a,\ b,\ c,$ and $d$ are real numbers. Click on the "**Check**" button to visualize the plot and verify the working of your filter. Steps to be done are as follows
+This section requires entering of values of real and imaginery poles and zeros of a polynomial function given by $$H(z) = \frac{(z-z_{1})(z-z_{1}^{*})}{(z-z_{2})(z-z_{2}^{*})}$$ and designing a filter whose magnitude response when evaluated on the unit circle would follow the type of filter as shown in the specification box on the left. Here, we consider conjuage pairs of poles and zeros following that it is a real system. The poles are zeros are specified using $$z_{1} = a+jb,\ z_{2} = c+jd$$ and $a,\ b,\ c,$ and $d$ are real numbers. Here, jb and jd denote the imaginary parts of the complex numbers $z_1$ and $z_2$, respectively. Click on the "**Check**" button to visualize the plot and verify the working of your filter. Steps to be done are as follows
 
 1. Enter the values in any of the four fields (fields can be left empty too), named "**a**", "**b**", "**c**" and "**d**".
 2. Click on "**Check**" button to visualize the plot and verify your answer.
