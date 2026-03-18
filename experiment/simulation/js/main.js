@@ -1,6 +1,7 @@
-// TODO: Show answer option for number of ROCs, after 5 failed attempted
-// TODO: changing tab from other tab to ROC shows some default [R1, R2] weird
-// TODO: improve logic of checking high or a low pass, use energy based heuristics
+// Done: Show answer option for number of ROCs, after 5 failed attempted
+// Done: changing tab from other tab to ROC shows some default [R1, R2] weird
+// Done: improve logic of checking high or a low pass, use energy based heuristics
+// TODO: in the ROC section when user write Inf make sure it gives correct answer if that is actually the answer and add that in instructions as well
 // ------------------------------------------- Global Declarations ------------------------------------------
 
 var k;
@@ -636,41 +637,22 @@ function poleZero() {
 // -------------------------------------- Separate CSV -----------------------------------------------------------
 
 function separate(input, select) {
-    var l = input.length;
-    var temp = "";
+    if (!input) return [];
+    var cleanInput = input.replace(/[\[\]\s]/g, "");
+    var parts = cleanInput.split(",");
     var final = [];
-    for (var i = 0; i < l; i++) {
-        if (input[i] == ',') {
-            var h;
-            if (temp == "Inf") {
-                h = 99999;
-            }
-            if (select == 1) {
-                h = parseInt(temp);
-            }
-            else {
-                h = parseFloat(temp);
-            }
-            final.push(h);
-            temp = "";
+    for (var i = 0; i < parts.length; i++) {
+        var temp = parts[i];
+        var val = temp.toUpperCase();
+        var h;
+        if (val === "INF" || val === "+INF" || val === "INFINITY" || val === "+INFINITY") {
+            h = 99999;
+        } else if (val === "-INF" || val === "-INFINITY") {
+            h = -99999;
+        } else {
+            h = select == 1 ? parseInt(temp) : parseFloat(temp);
         }
-        else {
-            temp = temp + input[i];
-        }
-    }
-    if (select == 1) {
-        var o = parseInt(temp);
-        final.push(o);
-        if (temp == "Inf") {
-            o = 99999;
-        }
-    }
-    else {
-        var o = parseFloat(temp);
-        final.push(o);
-        if (temp == "Inf") {
-            o = 99999;
-        }
+        final.push(h);
     }
     return final;
 }
