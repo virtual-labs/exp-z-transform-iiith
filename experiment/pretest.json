@@ -32,13 +32,13 @@
     {
       "question": "Which of the following is the definition of the Z-transform?",
       "answers": {
-        "a": "Sum of x[n]z^n over all n",
-        "b": "Sum of x[n]z^{-n} over all n",
-        "c": "Sum of x[n]e^{jn} over all n",
-        "d": "Sum of x[n]e^{-jn} over all n"
+        "a": "Sum of $x[n] z^n$ over all n",
+        "b": "Sum of $x[n]z^{-n}$ over all n",
+        "c": "Sum of $x[n]e^{jn}$ over all n",
+        "d": "Sum of $x[n]e^{-jn}$ over all n"
       },
       "explanations": {
-        "explanations": "The Z-transform is defined as sum of x[n]z^{-n} over all n."
+        "explanations": "The Z-transform is defined as sum of $x[n]z^{-n}$ over all n."
       },
       "correctAnswer": "b",
       "difficulty": "Beginner"

@@ -1,9 +1,12 @@
-## The aim of this experiment is to 
+## The aim of this experiment is to
+
 ***
-1. Study $\text{z}$-transform 
 
-2. Understanding $\text{z}$-transform and LTI systems
+1. Study $\text{z}$-transform
 
-3. Application of $\text{z}$-transform for system analysis – Causality and stability  
+2. Understand $\text{z}$-transform for LTI systems
 
-4. Filter design using placement of poles & zeros – Low pass filter, High pass filter 
+3. Perform system stability analysis using $\text{z}$-transform
+
+4. Design filters using placement of poles & zeros – Low pass filter, High pass filter
+

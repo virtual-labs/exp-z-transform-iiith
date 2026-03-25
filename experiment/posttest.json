@@ -7,10 +7,10 @@
         "a": "The system with pole in (0,1) acts as a low pass filter ",
         "b": "The system with pole in (0,1) acts as a high pass filter ",
         "c": "The system with pole in (-1,0) acts as a low pass filter ",
-        "d": "The system with pole in (-1,0) acts as a high pass filter"
+        "d": "both (a) and (c)"
       },
       "explanations": {
-        "explanations": "a and d"
+        "explanations": "A pole in the interval (0,1) will emphasize low frequencies more"
       },
       "correctAnswer": "a",
       "difficulty": "Advance"
@@ -30,20 +30,6 @@
       "difficulty": "Intermediate"
     },
     {
-      "question": "Which property is true for a minimum-phase system?",
-      "answers": {
-        "a": "All zeros are inside the unit circle",
-        "b": "All poles are inside the unit circle",
-        "c": "All zeros are outside the unit circle",
-        "d": "All poles are outside the unit circle"
-      },
-      "explanations": {
-        "explanations": "Minimum-phase systems have all zeros inside the unit circle."
-      },
-      "correctAnswer": "a",
-      "difficulty": "Intermediate"
-    },
-    {
       "question": "If the ROC includes the unit circle, the system is:",
       "answers": {
         "a": "Stable",
@@ -55,6 +41,21 @@
         "explanations": "ROC including the unit circle implies stability."
       },
       "correctAnswer": "a",
+      "difficulty": "Easy"
+    },
+    
+    {
+      "question": "A system with a single pole at the origin and no zeros in the finite Z-plane acts as a,",
+      "answers": {
+        "a": "Low pass filter",
+        "b": "High pass filter",
+        "c": "All pass filter",
+        "d": "Band stop filter"
+      },
+      "explanations": {
+        "explanations": "The magnitude spectrum will be constant."
+      },
+      "correctAnswer": "c",
       "difficulty": "Easy"
     }
   ]
