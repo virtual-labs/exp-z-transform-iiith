@@ -13,7 +13,7 @@
         "explanations": "A pole in the interval (0,1) will emphasize low frequencies more"
       },
       "correctAnswer": "a",
-      "difficulty": "Advance"
+      "difficulty": "advanced"
     },
     {
       "question": "What is the effect of a pole near the unit circle in the z-plane?",
@@ -27,7 +27,7 @@
         "explanations": "A pole near the unit circle makes the system more oscillatory."
       },
       "correctAnswer": "b",
-      "difficulty": "Intermediate"
+      "difficulty": "intermediate"
     },
     {
       "question": "If the ROC includes the unit circle, the system is:",
@@ -41,9 +41,9 @@
         "explanations": "ROC including the unit circle implies stability."
       },
       "correctAnswer": "a",
-      "difficulty": "Easy"
+      "difficulty": "beginner"
     },
-    
+
     {
       "question": "A system with a single pole at the origin and no zeros in the finite Z-plane acts as a,",
       "answers": {
@@ -56,7 +56,7 @@
         "explanations": "The magnitude spectrum will be constant."
       },
       "correctAnswer": "c",
-      "difficulty": "Easy"
+      "difficulty": "beginner"
     }
   ]
 }

@@ -13,7 +13,7 @@
         "explanations": " The ROC is outside the outermost pole"
       },
       "correctAnswer": "a",
-      "difficulty": "Easy"
+      "difficulty": "beginner"
     },
     {
       "question": "For a stable system ",
@@ -27,7 +27,7 @@
         "explanations": "The ROC includes the unit circle"
       },
       "correctAnswer": "a",
-      "difficulty": "Easy"
+      "difficulty": "beginner"
     },
     {
       "question": "Which of the following is the definition of the Z-transform?",
@@ -41,7 +41,7 @@
         "explanations": "The Z-transform is defined as sum of $x[n]z^{-n}$ over all n."
       },
       "correctAnswer": "b",
-      "difficulty": "Beginner"
+      "difficulty": "beginner"
     },
     {
       "question": "What is the ROC for a two-sided sequence?",
@@ -55,7 +55,7 @@
         "explanations": "For two-sided sequences, the ROC is a ring in the z-plane."
       },
       "correctAnswer": "a",
-      "difficulty": "Intermediate"
+      "difficulty": "intermediate"
     }
   ]
 }
