@@ -1,0 +1,62 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "For a system with single pole on the real-axis (and no zeros) ",
+      "answers": {
+        "a": "The system with pole in (0,1) acts as a low pass filter ",
+        "b": "The system with pole in (0,1) acts as a high pass filter ",
+        "c": "The system with pole in (-1,0) acts as a low pass filter ",
+        "d": "both (a) and (c)"
+      },
+      "explanations": {
+        "explanations": "A pole in the interval (0,1) will emphasize low frequencies more"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the effect of a pole near the unit circle in the z-plane?",
+      "answers": {
+        "a": "System becomes unstable",
+        "b": "System becomes more oscillatory",
+        "c": "System becomes more stable",
+        "d": "System becomes less oscillatory"
+      },
+      "explanations": {
+        "explanations": "A pole near the unit circle makes the system more oscillatory."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If the ROC includes the unit circle, the system is:",
+      "answers": {
+        "a": "Stable",
+        "b": "Unstable",
+        "c": "Causal",
+        "d": "Non-causal"
+      },
+      "explanations": {
+        "explanations": "ROC including the unit circle implies stability."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "A system with a single pole at the origin and no zeros in the finite Z-plane acts as a,",
+      "answers": {
+        "a": "Low pass filter",
+        "b": "High pass filter",
+        "c": "All pass filter",
+        "d": "Band stop filter"
+      },
+      "explanations": {
+        "explanations": "The magnitude spectrum will be constant."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,1543 @@
+
+/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/simulation/js/katex.js
+  1:66      warning  'module' is not defined                                                                                                        no-undef
+  1:112     warning  'define' is not defined                                                                                                        no-undef
+  1:123     warning  'define' is not defined                                                                                                        no-undef
+  1:161     warning  'exports' is not defined                                                                                                       no-undef
+  1:5115    warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:84588   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:86099   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:87353   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:87444   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:87727   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:87868   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:89419   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:89590   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:90795   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:91127   warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:118114  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:118198  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:120326  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:123012  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:130965  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:140019  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:151190  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:151192  warning  'r' is defined but never used                                                                                                  no-unused-vars
+  1:172692  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:175975  warning  'r' is defined but never used                                                                                                  no-unused-vars
+  1:176278  warning  'r' is defined but never used                                                                                                  no-unused-vars
+  1:190859  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:191239  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:192642  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:202505  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:206458  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:206765  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:210829  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:218512  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:221352  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:225942  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:226147  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:226293  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:226303  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:226333  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:228872  warning  'e' is defined but never used                                                                                                  no-unused-vars
+  1:228874  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:228876  warning  'r' is defined but never used                                                                                                  no-unused-vars
+  1:229281  warning  't' is defined but never used                                                                                                  no-unused-vars
+  1:229679  warning  Unexpected control character(s) in regular expression: \x0d, \x0a, \x09, \x0a, \x0d, \x09, \x0a, \x0d, \x09, \x0d, \x0a, \x09  no-control-regex
+  1:231171  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:231357  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:231390  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:231447  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:231750  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:254370  warning  Unreachable code                                                                                                               no-unreachable
+  1:255310  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:255337  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:255364  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:255386  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:255533  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:272634  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:273572  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+  1:274143  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                      no-prototype-builtins
+
+/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/simulation/js/main.js
+     7:5    warning  'k' is defined but never used                      no-unused-vars
+     8:5    warning  'p' is defined but never used                      no-unused-vars
+     9:5    warning  'sigChoice' is defined but never used              no-unused-vars
+    10:5    warning  'scaleChoice' is defined but never used            no-unused-vars
+    11:5    warning  'delayChoice' is defined but never used            no-unused-vars
+    12:5    warning  'boxChoice' is defined but never used              no-unused-vars
+    13:5    warning  'yValues' is defined but never used                no-unused-vars
+    14:5    warning  'inValues' is defined but never used               no-unused-vars
+    19:5    warning  'always' is defined but never used                 no-unused-vars
+    21:5    warning  'ROCNum1' is defined but never used                no-unused-vars
+    25:5    warning  'num' is assigned a value but never used           no-unused-vars
+    26:5    warning  'den' is assigned a value but never used           no-unused-vars
+    35:10   warning  'openPart' is defined but never used               no-unused-vars
+    51:9    warning  'renderMathInElement' is not defined               no-undef
+    62:9    warning  'renderMathInElement' is not defined               no-undef
+    66:9    warning  'renderMathInElement' is not defined               no-undef
+    70:9    warning  'renderMathInElement' is not defined               no-undef
+    76:10   warning  'add_field' is defined but never used              no-unused-vars
+    85:10   warning  'remove_field' is defined but never used           no-unused-vars
+    93:10   warning  'fourier' is defined but never used                no-unused-vars
+    98:19   warning  'math' is not defined                              no-undef
+   100:19   warning  'math' is not defined                              no-undef
+   100:34   warning  'math' is not defined                              no-undef
+   100:61   warning  'math' is not defined                              no-undef
+   102:13   warning  'math' is not defined                              no-undef
+   103:24   warning  'math' is not defined                              no-undef
+   103:40   warning  'math' is not defined                              no-undef
+   106:13   warning  'math' is not defined                              no-undef
+   107:17   warning  'sum1' is already defined                          no-redeclare
+   107:24   warning  'math' is not defined                              no-undef
+   107:37   warning  'math' is not defined                              no-undef
+   115:10   warning  'invFourier' is defined but never used             no-unused-vars
+   120:19   warning  'math' is not defined                              no-undef
+   122:19   warning  'math' is not defined                              no-undef
+   122:33   warning  'math' is not defined                              no-undef
+   122:46   warning  'math' is not defined                              no-undef
+   122:109  warning  'math' is not defined                              no-undef
+   122:171  warning  'math' is not defined                              no-undef
+   122:234  warning  'math' is not defined                              no-undef
+   124:13   warning  'math' is not defined                              no-undef
+   125:24   warning  'math' is not defined                              no-undef
+   125:40   warning  'math' is not defined                              no-undef
+   128:13   warning  'math' is not defined                              no-undef
+   129:17   warning  'sum1' is already defined                          no-redeclare
+   129:24   warning  'math' is not defined                              no-undef
+   129:37   warning  'math' is not defined                              no-undef
+   137:10   warning  'shift' is defined but never used                  no-unused-vars
+   144:14   warning  'i' is already defined                             no-redeclare
+   194:18   warning  'math' is not defined                              no-undef
+   194:27   warning  'math' is not defined                              no-undef
+   205:18   warning  'i' is already defined                             no-redeclare
+   206:33   warning  'math' is not defined                              no-undef
+   210:13   warning  'a1' is already defined                            no-redeclare
+   212:18   warning  'i' is already defined                             no-redeclare
+   213:34   warning  'math' is not defined                              no-undef
+   213:77   warning  'math' is not defined                              no-undef
+   217:13   warning  'a1' is already defined                            no-redeclare
+   218:13   warning  'b1' is already defined                            no-redeclare
+   220:18   warning  'i' is already defined                             no-redeclare
+   221:34   warning  'math' is not defined                              no-undef
+   221:77   warning  'math' is not defined                              no-undef
+   221:120  warning  'math' is not defined                              no-undef
+   228:18   warning  'i' is already defined                             no-redeclare
+   233:13   warning  'a1' is already defined                            no-redeclare
+   234:18   warning  'i' is already defined                             no-redeclare
+   235:33   warning  'math' is not defined                              no-undef
+   239:13   warning  'a1' is already defined                            no-redeclare
+   240:13   warning  'b1' is already defined                            no-redeclare
+   241:18   warning  'i' is already defined                             no-redeclare
+   242:34   warning  'math' is not defined                              no-undef
+   242:77   warning  'math' is not defined                              no-undef
+   246:13   warning  'a1' is already defined                            no-redeclare
+   247:13   warning  'b1' is already defined                            no-redeclare
+   248:13   warning  'c1' is already defined                            no-redeclare
+   249:18   warning  'i' is already defined                             no-redeclare
+   250:34   warning  'math' is not defined                              no-undef
+   250:77   warning  'math' is not defined                              no-undef
+   250:120  warning  'math' is not defined                              no-undef
+   256:14   warning  'i' is already defined                             no-redeclare
+   260:14   warning  'i' is already defined                             no-redeclare
+   263:14   warning  'i' is already defined                             no-redeclare
+   336:5    warning  'Plotly' is not defined                            no-undef
+   345:13   warning  'update' is already defined                        no-redeclare
+   351:5    warning  'Plotly' is not defined                            no-undef
+   352:5    warning  'Plotly' is not defined                            no-undef
+   355:13   warning  'update' is already defined                        no-redeclare
+   361:13   warning  'update' is already defined                        no-redeclare
+   367:5    warning  'Plotly' is not defined                            no-undef
+   393:10   warning  'poleZero' is defined but never used               no-unused-vars
+   439:18   warning  'math' is not defined                              no-undef
+   439:27   warning  'math' is not defined                              no-undef
+   450:18   warning  'i' is already defined                             no-redeclare
+   451:33   warning  'math' is not defined                              no-undef
+   455:13   warning  'a1' is already defined                            no-redeclare
+   457:18   warning  'i' is already defined                             no-redeclare
+   458:34   warning  'math' is not defined                              no-undef
+   458:77   warning  'math' is not defined                              no-undef
+   462:13   warning  'a1' is already defined                            no-redeclare
+   463:13   warning  'b1' is already defined                            no-redeclare
+   465:18   warning  'i' is already defined                             no-redeclare
+   466:34   warning  'math' is not defined                              no-undef
+   466:77   warning  'math' is not defined                              no-undef
+   466:120  warning  'math' is not defined                              no-undef
+   473:18   warning  'i' is already defined                             no-redeclare
+   478:13   warning  'a1' is already defined                            no-redeclare
+   479:18   warning  'i' is already defined                             no-redeclare
+   480:33   warning  'math' is not defined                              no-undef
+   484:13   warning  'a1' is already defined                            no-redeclare
+   485:13   warning  'b1' is already defined                            no-redeclare
+   486:18   warning  'i' is already defined                             no-redeclare
+   487:34   warning  'math' is not defined                              no-undef
+   487:77   warning  'math' is not defined                              no-undef
+   491:13   warning  'a1' is already defined                            no-redeclare
+   492:13   warning  'b1' is already defined                            no-redeclare
+   493:13   warning  'c1' is already defined                            no-redeclare
+   494:18   warning  'i' is already defined                             no-redeclare
+   495:34   warning  'math' is not defined                              no-undef
+   495:77   warning  'math' is not defined                              no-undef
+   495:120  warning  'math' is not defined                              no-undef
+   501:14   warning  'i' is already defined                             no-redeclare
+   505:14   warning  'i' is already defined                             no-redeclare
+   508:14   warning  'i' is already defined                             no-redeclare
+   580:5    warning  'Plotly' is not defined                            no-undef
+   589:13   warning  'update' is already defined                        no-redeclare
+   595:5    warning  'Plotly' is not defined                            no-undef
+   596:5    warning  'Plotly' is not defined                            no-undef
+   599:13   warning  'update' is already defined                        no-redeclare
+   605:13   warning  'update' is already defined                        no-redeclare
+   611:5    warning  'Plotly' is not defined                            no-undef
+   641:38   warning  Unnecessary escape character: \[                   no-useless-escape
+   775:14   warning  'i' is already defined                             no-redeclare
+   831:5    warning  'Plotly' is not defined                            no-undef
+   840:13   warning  'update' is already defined                        no-redeclare
+   846:5    warning  'Plotly' is not defined                            no-undef
+   867:10   warning  'ROCNumber' is defined but never used              no-unused-vars
+   888:13   warning  'element' is already defined                       no-redeclare
+   893:17   warning  'x' is already defined                             no-redeclare
+   897:17   warning  'x' is already defined                             no-redeclare
+   907:10   warning  'showAnswer' is defined but never used             no-unused-vars
+   965:10   warning  'ROCList' is defined but never used                no-unused-vars
+   981:14   warning  'i' is already defined                             no-redeclare
+   998:14   warning  'i' is already defined                             no-redeclare
+  1015:17   warning  'x' is already defined                             no-redeclare
+  1024:14   warning  'i' is already defined                             no-redeclare
+  1033:13   warning  'element' is already defined                       no-redeclare
+  1037:13   warning  'x' is already defined                             no-redeclare
+  1042:13   warning  'element' is already defined                       no-redeclare
+  1047:17   warning  'x' is already defined                             no-redeclare
+  1051:17   warning  'x' is already defined                             no-redeclare
+  1057:10   warning  'showROCAnswer' is defined but never used          no-unused-vars
+  1064:14   warning  'i' is already defined                             no-redeclare
+  1289:28   warning  'pltn' is assigned a value but never used          no-unused-vars
+  1289:39   warning  'pltd' is assigned a value but never used          no-unused-vars
+  1290:18   warning  'math' is not defined                              no-undef
+  1290:27   warning  'math' is not defined                              no-undef
+  1292:9    warning  'numeratorR' is assigned a value but never used    no-unused-vars
+  1293:9    warning  'numeratorI' is assigned a value but never used    no-unused-vars
+  1294:9    warning  'denominatorR' is assigned a value but never used  no-unused-vars
+  1295:9    warning  'denominatorI' is assigned a value but never used  no-unused-vars
+  1302:18   warning  'i' is already defined                             no-redeclare
+  1309:18   warning  'i' is already defined                             no-redeclare
+  1316:18   warning  'i' is already defined                             no-redeclare
+  1323:18   warning  'i' is already defined                             no-redeclare
+  1330:18   warning  'i' is already defined                             no-redeclare
+  1339:18   warning  'i' is already defined                             no-redeclare
+  1348:18   warning  'i' is already defined                             no-redeclare
+  1357:18   warning  'i' is already defined                             no-redeclare
+  1358:116  warning  'cos' is not defined                               no-undef
+  1364:18   warning  'i' is already defined                             no-redeclare
+  1365:117  warning  'cos' is not defined                               no-undef
+  1373:18   warning  'i' is already defined                             no-redeclare
+  1374:117  warning  'cos' is not defined                               no-undef
+  1382:18   warning  'i' is already defined                             no-redeclare
+  1383:117  warning  'cos' is not defined                               no-undef
+  1391:18   warning  'i' is already defined                             no-redeclare
+  1398:18   warning  'i' is already defined                             no-redeclare
+  1407:18   warning  'i' is already defined                             no-redeclare
+  1416:18   warning  'i' is already defined                             no-redeclare
+  1494:5    warning  'Plotly' is not defined                            no-undef
+  1503:13   warning  'update' is already defined                        no-redeclare
+  1509:5    warning  'Plotly' is not defined                            no-undef
+  1510:5    warning  'Plotly' is not defined                            no-undef
+  1513:13   warning  'update' is already defined                        no-redeclare
+  1519:13   warning  'update' is already defined                        no-redeclare
+  1525:5    warning  'Plotly' is not defined                            no-undef
+  1556:10   warning  'poleZeroI' is defined but never used              no-unused-vars
+  1570:28   warning  'pltn' is assigned a value but never used          no-unused-vars
+  1570:39   warning  'pltd' is assigned a value but never used          no-unused-vars
+  1571:18   warning  'math' is not defined                              no-undef
+  1571:27   warning  'math' is not defined                              no-undef
+  1579:18   warning  'i' is already defined                             no-redeclare
+  1586:18   warning  'i' is already defined                             no-redeclare
+  1593:18   warning  'i' is already defined                             no-redeclare
+  1600:18   warning  'i' is already defined                             no-redeclare
+  1607:18   warning  'i' is already defined                             no-redeclare
+  1616:18   warning  'i' is already defined                             no-redeclare
+  1625:18   warning  'i' is already defined                             no-redeclare
+  1634:18   warning  'i' is already defined                             no-redeclare
+  1641:18   warning  'i' is already defined                             no-redeclare
+  1650:18   warning  'i' is already defined                             no-redeclare
+  1659:18   warning  'i' is already defined                             no-redeclare
+  1668:18   warning  'i' is already defined                             no-redeclare
+  1675:18   warning  'i' is already defined                             no-redeclare
+  1684:18   warning  'i' is already defined                             no-redeclare
+  1693:18   warning  'i' is already defined                             no-redeclare
+  1770:5    warning  'Plotly' is not defined                            no-undef
+  1779:13   warning  'update' is already defined                        no-redeclare
+  1785:5    warning  'Plotly' is not defined                            no-undef
+  1786:5    warning  'Plotly' is not defined                            no-undef
+  1789:13   warning  'update' is already defined                        no-redeclare
+  1795:13   warning  'update' is already defined                        no-redeclare
+  1801:5    warning  'Plotly' is not defined                            no-undef
+  1833:10   warning  'add_field1' is defined but never used             no-unused-vars
+  1842:10   warning  'remove_field1' is defined but never used          no-unused-vars
+  1851:10   warning  'stabilityInit' is defined but never used          no-unused-vars
+  1974:14   warning  'i' is already defined                             no-redeclare
+  2030:5    warning  'Plotly' is not defined                            no-undef
+  2039:13   warning  'update' is already defined                        no-redeclare
+  2045:5    warning  'Plotly' is not defined                            no-undef
+  2048:14   warning  'i' is already defined                             no-redeclare
+  2059:17   warning  'left' is already defined                          no-redeclare
+  2066:17   warning  'left' is already defined                          no-redeclare
+  2067:17   warning  'right' is already defined                         no-redeclare
+  2078:44   warning  Unnecessary escape character: \p                   no-useless-escape
+  2081:10   warning  'stabilityCheck' is defined but never used         no-unused-vars
+  2094:13   warning  'element' is already defined                       no-redeclare
+  2100:13   warning  'element' is already defined                       no-redeclare
+  2106:13   warning  'element' is already defined                       no-redeclare
+  2128:13   warning  'element' is already defined                       no-redeclare
+  2164:5    warning  'Plotly' is not defined                            no-undef
+  2173:13   warning  'update' is already defined                        no-redeclare
+  2179:5    warning  'Plotly' is not defined                            no-undef
+  2182:10   warning  'filterCheck' is defined but never used            no-unused-vars
+  2195:28   warning  'pltn' is assigned a value but never used          no-unused-vars
+  2195:39   warning  'pltd' is assigned a value but never used          no-unused-vars
+  2196:18   warning  'math' is not defined                              no-undef
+  2196:27   warning  'math' is not defined                              no-undef
+  2204:18   warning  'i' is already defined                             no-redeclare
+  2211:18   warning  'i' is already defined                             no-redeclare
+  2218:18   warning  'i' is already defined                             no-redeclare
+  2225:18   warning  'i' is already defined                             no-redeclare
+  2232:18   warning  'i' is already defined                             no-redeclare
+  2241:18   warning  'i' is already defined                             no-redeclare
+  2250:18   warning  'i' is already defined                             no-redeclare
+  2259:18   warning  'i' is already defined                             no-redeclare
+  2266:18   warning  'i' is already defined                             no-redeclare
+  2275:18   warning  'i' is already defined                             no-redeclare
+  2284:18   warning  'i' is already defined                             no-redeclare
+  2293:18   warning  'i' is already defined                             no-redeclare
+  2300:18   warning  'i' is already defined                             no-redeclare
+  2309:18   warning  'i' is already defined                             no-redeclare
+  2318:18   warning  'i' is already defined                             no-redeclare
+  2328:14   warning  'i' is already defined                             no-redeclare
+  2332:14   warning  'i' is already defined                             no-redeclare
+  2335:14   warning  'i' is already defined                             no-redeclare
+  2347:17   warning  'element' is already defined                       no-redeclare
+  2355:17   warning  'element' is already defined                       no-redeclare
+  2361:17   warning  'element' is already defined                       no-redeclare
+  2389:5    warning  'Plotly' is not defined                            no-undef
+  2398:13   warning  'update' is already defined                        no-redeclare
+  2404:5    warning  'Plotly' is not defined                            no-undef
+
+/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/simulation/js/math.js
+  2:66      warning  'module' is not defined                                                          no-undef
+  2:112     warning  'define' is not defined                                                          no-undef
+  2:123     warning  'define' is not defined                                                          no-undef
+  2:161     warning  'exports' is not defined                                                         no-undef
+  2:248     warning  'n' is defined but never used                                                    no-unused-vars
+  2:14387   warning  Empty block statement                                                            no-empty
+  2:14527   warning  Empty block statement                                                            no-empty
+  2:14913   warning  Empty block statement                                                            no-empty
+  2:16239   warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:18491   warning  Empty block statement                                                            no-empty
+  2:19662   warning  Empty block statement                                                            no-empty
+  2:21429   warning  'Deno' is not defined                                                            no-undef
+  2:21452   warning  'Deno' is not defined                                                            no-undef
+  2:22554   warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:24102   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  2:27169   warning  Do not access Object.prototype method 'propertyIsEnumerable' from target object  no-prototype-builtins
+  2:34298   warning  Empty block statement                                                            no-empty
+  2:36889   warning  Unnecessary escape character: \/                                                 no-useless-escape
+  2:37008   warning  'ActiveXObject' is not defined                                                   no-undef
+  2:37042   warning  Empty block statement                                                            no-empty
+  2:38221   warning  Empty block statement                                                            no-empty
+  2:38520   warning  Empty block statement                                                            no-empty
+  2:40254   warning  Empty block statement                                                            no-empty
+  2:47619   warning  'e' is defined but never used                                                    no-unused-vars
+  2:48008   warning  Empty block statement                                                            no-empty
+  2:51587   warning  'e' is defined but never used                                                    no-unused-vars
+  2:53913   warning  Empty block statement                                                            no-empty
+  2:54765   warning  'this.length' is assigned to itself                                              no-self-assign
+  2:57587   warning  'e' is defined but never used                                                    no-unused-vars
+  2:59108   warning  'e' is defined but never used                                                    no-unused-vars
+  2:59110   warning  't' is defined but never used                                                    no-unused-vars
+  2:59112   warning  'r' is defined but never used                                                    no-unused-vars
+  2:67289   warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:67432   warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:68562   warning  'e' is defined but never used                                                    no-unused-vars
+  2:69199   warning  Empty block statement                                                            no-empty
+  2:72539   warning  Empty block statement                                                            no-empty
+  2:84917   warning  'n' is defined but never used                                                    no-unused-vars
+  2:86563   warning  Expected a 'break' statement before 'default'                                    no-fallthrough
+  2:88670   warning  'f' is already defined                                                           no-redeclare
+  2:90529   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  2:90566   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  2:90686   warning  Unnecessary escape character: \/                                                 no-useless-escape
+  2:90688   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  2:90699   warning  Unnecessary escape character: \/                                                 no-useless-escape
+  2:90701   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  2:91668   warning  'a' is defined but never used                                                    no-unused-vars
+  2:92642   warning  'a' is defined but never used                                                    no-unused-vars
+  2:93529   warning  'a' is defined but never used                                                    no-unused-vars
+  2:94292   warning  'a' is defined but never used                                                    no-unused-vars
+  2:95458   warning  'a' is defined but never used                                                    no-unused-vars
+  2:96452   warning  'a' is defined but never used                                                    no-unused-vars
+  2:98477   warning  Empty block statement                                                            no-empty
+  2:98737   warning  Empty block statement                                                            no-empty
+  2:99547   warning  'i' is a function                                                                no-func-assign
+  2:99935   warning  'f' is a function                                                                no-func-assign
+  2:106146  warning  't' is a function                                                                no-func-assign
+  2:106519  warning  'regeneratorRuntime' is not defined                                              no-undef
+  2:107618  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:107756  warning  'r' is a function                                                                no-func-assign
+  2:121629  warning  Empty block statement                                                            no-empty
+  2:126438  warning  't' is a function                                                                no-func-assign
+  2:146946  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:165656  warning  'e' is defined but never used                                                    no-unused-vars
+  2:180068  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:190579  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:192899  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:200950  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  2:202198  warning  'e' is defined but never used                                                    no-unused-vars
+  2:205759  warning  'e' is defined but never used                                                    no-unused-vars
+  2:205761  warning  't' is defined but never used                                                    no-unused-vars
+  2:205855  warning  'e' is defined but never used                                                    no-unused-vars
+  2:205857  warning  't' is defined but never used                                                    no-unused-vars
+  2:205859  warning  'r' is defined but never used                                                    no-unused-vars
+  2:205950  warning  'e' is defined but never used                                                    no-unused-vars
+  2:206038  warning  'e' is defined but never used                                                    no-unused-vars
+  2:206040  warning  't' is defined but never used                                                    no-unused-vars
+  2:206042  warning  'r' is defined but never used                                                    no-unused-vars
+  2:206133  warning  'e' is defined but never used                                                    no-unused-vars
+  2:206135  warning  't' is defined but never used                                                    no-unused-vars
+  2:206230  warning  'e' is defined but never used                                                    no-unused-vars
+  2:206232  warning  't' is defined but never used                                                    no-unused-vars
+  2:206504  warning  'e' is defined but never used                                                    no-unused-vars
+  2:206506  warning  't' is defined but never used                                                    no-unused-vars
+  2:206598  warning  'e' is defined but never used                                                    no-unused-vars
+  2:206977  warning  'e' is defined but never used                                                    no-unused-vars
+  2:221480  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  2:222844  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:228695  warning  'e' is defined but never used                                                    no-unused-vars
+  2:239066  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  2:239136  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  2:242639  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:243454  warning  'e' is defined but never used                                                    no-unused-vars
+  2:243536  warning  'e' is defined but never used                                                    no-unused-vars
+  2:243873  warning  'e' is defined but never used                                                    no-unused-vars
+  2:244243  warning  'e' is defined but never used                                                    no-unused-vars
+  2:245131  warning  'e' is defined but never used                                                    no-unused-vars
+  2:245662  warning  'e' is defined but never used                                                    no-unused-vars
+  2:246305  warning  'e' is defined but never used                                                    no-unused-vars
+  2:249193  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:251105  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:257724  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:318460  warning  'e' is defined but never used                                                    no-unused-vars
+  2:327141  warning  'e' is defined but never used                                                    no-unused-vars
+  2:327143  warning  't' is defined but never used                                                    no-unused-vars
+  2:332247  warning  Empty block statement                                                            no-empty
+  2:335214  warning  't' is defined but never used                                                    no-unused-vars
+  2:354507  warning  'e' is defined but never used                                                    no-unused-vars
+  2:354509  warning  't' is defined but never used                                                    no-unused-vars
+  2:363367  warning  'e' is defined but never used                                                    no-unused-vars
+  2:367280  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:367642  warning  'n' is defined but never used                                                    no-unused-vars
+  2:369427  warning  'Jc' is a function                                                               no-func-assign
+  2:371311  warning  'e' is defined but never used                                                    no-unused-vars
+  2:374833  warning  't' is defined but never used                                                    no-unused-vars
+  2:388809  warning  'e' is defined but never used                                                    no-unused-vars
+  2:405450  warning  'n' is defined but never used                                                    no-unused-vars
+  2:423711  warning  'r' is defined but never used                                                    no-unused-vars
+  2:427425  warning  'e' is defined but never used                                                    no-unused-vars
+  2:427427  warning  't' is defined but never used                                                    no-unused-vars
+  2:427536  warning  'e' is defined but never used                                                    no-unused-vars
+  2:427625  warning  'e' is defined but never used                                                    no-unused-vars
+  2:428935  warning  'e' is defined but never used                                                    no-unused-vars
+  2:429395  warning  'Zl' is a function                                                               no-func-assign
+  2:430096  warning  'Yl' is a function                                                               no-func-assign
+  2:440324  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:457756  warning  't' is defined but never used                                                    no-unused-vars
+  2:458510  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  2:459277  warning  'e' is defined but never used                                                    no-unused-vars
+  2:459279  warning  't' is defined but never used                                                    no-unused-vars
+  2:459359  warning  'e' is defined but never used                                                    no-unused-vars
+  2:459391  warning  'e' is defined but never used                                                    no-unused-vars
+  2:466141  warning  'e' is defined but never used                                                    no-unused-vars
+  2:466370  warning  'e' is defined but never used                                                    no-unused-vars
+  2:485209  warning  'i' is defined but never used                                                    no-unused-vars
+  2:485647  warning  'i' is defined but never used                                                    no-unused-vars
+  2:486187  warning  'i' is defined but never used                                                    no-unused-vars
+  2:487427  warning  'r' is defined but never used                                                    no-unused-vars
+  2:487471  warning  'r' is defined but never used                                                    no-unused-vars
+  2:487473  warning  'n' is defined but never used                                                    no-unused-vars
+  2:487539  warning  't' is defined but never used                                                    no-unused-vars
+  2:487541  warning  'n' is defined but never used                                                    no-unused-vars
+  2:487641  warning  'e' is defined but never used                                                    no-unused-vars
+  2:487673  warning  'e' is defined but never used                                                    no-unused-vars
+  2:487786  warning  'e' is defined but never used                                                    no-unused-vars
+  2:487837  warning  'e' is defined but never used                                                    no-unused-vars
+  2:488455  warning  'e' is defined but never used                                                    no-unused-vars
+  2:488867  warning  'Lp' is a function                                                               no-func-assign
+  2:492661  warning  'n' is defined but never used                                                    no-unused-vars
+  2:492734  warning  't' is defined but never used                                                    no-unused-vars
+  2:492736  warning  'r' is defined but never used                                                    no-unused-vars
+  2:511557  warning  'e' is defined but never used                                                    no-unused-vars
+  2:511576  warning  'e' is defined but never used                                                    no-unused-vars
+  2:513246  warning  'r' is defined but never used                                                    no-unused-vars
+  2:517496  warning  'n' is defined but never used                                                    no-unused-vars
+  2:517819  warning  't' is defined but never used                                                    no-unused-vars
+  2:602912  warning  'r' is defined but never used                                                    no-unused-vars
+  2:606338  warning  'r' is defined but never used                                                    no-unused-vars
+  2:607562  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:611069  warning  'r' is defined but never used                                                    no-unused-vars
+  2:612522  warning  'e' is defined but never used                                                    no-unused-vars
+  2:618568  warning  't' is defined but never used                                                    no-unused-vars
+  2:632472  warning  'e' is defined but never used                                                    no-unused-vars
+  2:632474  warning  't' is defined but never used                                                    no-unused-vars
+  2:637086  warning  't' is defined but never used                                                    no-unused-vars
+  2:654820  warning  't' is defined but never used                                                    no-unused-vars
+  2:654822  warning  'r' is defined but never used                                                    no-unused-vars
+  2:655684  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  2:664270  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  2:665548  warning  'e' is defined but never used                                                    no-unused-vars
+  2:666130  warning  't' is defined but never used                                                    no-unused-vars
+  2:666174  warning  't' is defined but never used                                                    no-unused-vars
+  2:666322  warning  't' is defined but never used                                                    no-unused-vars
+  2:666378  warning  't' is defined but never used                                                    no-unused-vars
+  2:666578  warning  Empty block statement                                                            no-empty
+  2:667023  warning  Empty block statement                                                            no-empty
+  2:667172  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  2:675603  warning  'e' is defined but never used                                                    no-unused-vars
+  2:676539  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  2:682939  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+
+/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/simulation/js/plotly.js
+  7:70       warning  'module' is not defined                                                    no-undef
+  7:124      warning  'define' is not defined                                                    no-undef
+  7:135      warning  'define' is not defined                                                    no-undef
+  7:215      warning  'global' is not defined                                                    no-undef
+  7:5769     warning  'e' is assigned a value but never used                                     no-unused-vars
+  7:6653     warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:8039     warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:8601     warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:8726     warning  Unnecessary escape character: \^                                           no-useless-escape
+  7:8728     warning  Unnecessary escape character: \$                                           no-useless-escape
+  7:8730     warning  Unnecessary escape character: \*                                           no-useless-escape
+  7:8732     warning  Unnecessary escape character: \+                                           no-useless-escape
+  7:8734     warning  Unnecessary escape character: \?                                           no-useless-escape
+  7:8736     warning  Unnecessary escape character: \|                                           no-useless-escape
+  7:8738     warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:8742     warning  Unnecessary escape character: \(                                           no-useless-escape
+  7:8744     warning  Unnecessary escape character: \)                                           no-useless-escape
+  7:8746     warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:8748     warning  Unnecessary escape character: \{                                           no-useless-escape
+  7:8750     warning  Unnecessary escape character: \}                                           no-useless-escape
+  7:9123     warning  'Sizzle' is not defined                                                    no-undef
+  7:9147     warning  'Sizzle' is not defined                                                    no-undef
+  7:9156     warning  'Sizzle' is not defined                                                    no-undef
+  7:9575     warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:10999    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:12311    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:12708    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:14516    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:16596    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:16975    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:28242    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:28451    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:33069    warning  'XDomainRequest' is not defined                                            no-undef
+  7:34695    warning  Unnecessary escape character: \"                                           no-useless-escape
+  7:43377    warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:43390    warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:48215    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:48288    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:54388    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:69336    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:76679    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:87810    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:89193    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:89368    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:106946   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:112422   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:112654   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:116990   warning  'f' is already defined                                                     no-redeclare
+  7:136393   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152074   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152122   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152178   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152226   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152282   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152330   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152386   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152477   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152557   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:152680   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:153580   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:160746   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:164815   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:180202   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:180228   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:180239   warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:181470   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:186856   warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:186992   warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:190743   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:191459   warning  Empty block statement                                                      no-empty
+  7:194926   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:194928   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:194952   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:194954   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:207245   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:207247   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:207269   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:207403   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:207424   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:207553   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:234474   warning  'MathJax' is not defined                                                   no-undef
+  7:234503   warning  'MathJax' is not defined                                                   no-undef
+  7:251791   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:251896   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:265045   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:282057   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:288137   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:289028   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:326206   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:354537   warning  'global' is not defined                                                    no-undef
+  7:354685   warning  Expected to return a value in method 'get'                                 getter-return
+  7:359344   warning  'jQuery' is not defined                                                    no-undef
+  7:359465   warning  'jQuery' is not defined                                                    no-undef
+  7:423888   warning  'e' is defined but never used                                              no-unused-vars
+  7:472002   warning  'e' is defined but never used                                              no-unused-vars
+  7:472004   warning  'r' is defined but never used                                              no-unused-vars
+  7:473775   warning  'e' is defined but never used                                              no-unused-vars
+  7:473777   warning  'r' is defined but never used                                              no-unused-vars
+  7:476282   warning  'e' is defined but never used                                              no-unused-vars
+  7:476284   warning  'r' is defined but never used                                              no-unused-vars
+  7:497766   warning  Empty block statement                                                      no-empty
+  7:501594   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:525564   warning  'a' is defined but never used                                              no-unused-vars
+  7:537464   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:537631   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:539094   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:550444   warning  Move function declaration to function body root                            no-inner-declarations
+  7:564466   warning  'object' is not defined                                                    no-undef
+  7:564523   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:564711   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:567781   warning  'i' is already defined                                                     no-redeclare
+  7:567811   warning  'o' is already defined                                                     no-redeclare
+  7:567821   warning  'l' is already defined                                                     no-redeclare
+  7:567837   warning  'u' is already defined                                                     no-redeclare
+  7:567853   warning  'c' is already defined                                                     no-redeclare
+  7:567869   warning  'h' is already defined                                                     no-redeclare
+  7:567885   warning  'f' is already defined                                                     no-redeclare
+  7:571061   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:577948   warning  'PlotlyGeoAssets' is not defined                                           no-undef
+  7:578031   warning  'PlotlyGeoAssets' is not defined                                           no-undef
+  7:578116   warning  'PlotlyGeoAssets' is not defined                                           no-undef
+  7:590408   warning  'r' is defined but never used                                              no-unused-vars
+  7:608345   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:622211   warning  'n' is defined but never used                                              no-unused-vars
+  7:622213   warning  'i' is defined but never used                                              no-unused-vars
+  7:624049   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:664835   warning  't' is defined but never used                                              no-unused-vars
+  7:664868   warning  't' is defined but never used                                              no-unused-vars
+  7:664971   warning  't' is defined but never used                                              no-unused-vars
+  7:666481   warning  'require' is not defined                                                   no-undef
+  7:669574   warning  Empty block statement                                                      no-empty
+  7:670995   warning  'global' is not defined                                                    no-undef
+  7:685035   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:707673   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:707856   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:774408   warning  'MathJax' is not defined                                                   no-undef
+  7:774539   warning  'MathJax' is not defined                                                   no-undef
+  7:782519   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:782523   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:782532   warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:782536   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:819622   warning  'a' is defined but never used                                              no-unused-vars
+  7:820062   warning  'e' is defined but never used                                              no-unused-vars
+  7:820133   warning  'e' is defined but never used                                              no-unused-vars
+  7:820212   warning  'e' is defined but never used                                              no-unused-vars
+  7:820291   warning  'e' is defined but never used                                              no-unused-vars
+  7:820366   warning  't' is defined but never used                                              no-unused-vars
+  7:820368   warning  'e' is defined but never used                                              no-unused-vars
+  7:820417   warning  'e' is defined but never used                                              no-unused-vars
+  7:820419   warning  'n' is defined but never used                                              no-unused-vars
+  7:820519   warning  'e' is defined but never used                                              no-unused-vars
+  7:820875   warning  'e' is defined but never used                                              no-unused-vars
+  7:821140   warning  'e' is defined but never used                                              no-unused-vars
+  7:821261   warning  'e' is defined but never used                                              no-unused-vars
+  7:821341   warning  'e' is defined but never used                                              no-unused-vars
+  7:821921   warning  'e' is defined but never used                                              no-unused-vars
+  7:823279   warning  'e' is defined but never used                                              no-unused-vars
+  7:823478   warning  'e' is defined but never used                                              no-unused-vars
+  7:825146   warning  'e' is defined but never used                                              no-unused-vars
+  7:825388   warning  't' is defined but never used                                              no-unused-vars
+  7:825390   warning  'e' is defined but never used                                              no-unused-vars
+  7:825527   warning  't' is defined but never used                                              no-unused-vars
+  7:825529   warning  'e' is defined but never used                                              no-unused-vars
+  7:825895   warning  'e' is defined but never used                                              no-unused-vars
+  7:826502   warning  'e' is defined but never used                                              no-unused-vars
+  7:827110   warning  'e' is defined but never used                                              no-unused-vars
+  7:827718   warning  'e' is defined but never used                                              no-unused-vars
+  7:827797   warning  'e' is defined but never used                                              no-unused-vars
+  7:827855   warning  'e' is defined but never used                                              no-unused-vars
+  7:827911   warning  'e' is defined but never used                                              no-unused-vars
+  7:828017   warning  'e' is defined but never used                                              no-unused-vars
+  7:828461   warning  't' is defined but never used                                              no-unused-vars
+  7:828463   warning  'e' is defined but never used                                              no-unused-vars
+  7:828752   warning  't' is defined but never used                                              no-unused-vars
+  7:828754   warning  'e' is defined but never used                                              no-unused-vars
+  7:828897   warning  't' is defined but never used                                              no-unused-vars
+  7:828899   warning  'e' is defined but never used                                              no-unused-vars
+  7:829170   warning  't' is defined but never used                                              no-unused-vars
+  7:829172   warning  'e' is defined but never used                                              no-unused-vars
+  7:829300   warning  'n' is defined but never used                                              no-unused-vars
+  7:829923   warning  't' is defined but never used                                              no-unused-vars
+  7:829925   warning  'r' is defined but never used                                              no-unused-vars
+  7:830034   warning  't' is defined but never used                                              no-unused-vars
+  7:830036   warning  'r' is defined but never used                                              no-unused-vars
+  7:830602   warning  't' is defined but never used                                              no-unused-vars
+  7:830639   warning  't' is defined but never used                                              no-unused-vars
+  7:830732   warning  't' is defined but never used                                              no-unused-vars
+  7:830734   warning  'r' is defined but never used                                              no-unused-vars
+  7:832054   warning  'r' is defined but never used                                              no-unused-vars
+  7:832195   warning  'r' is defined but never used                                              no-unused-vars
+  7:832486   warning  'n' is defined but never used                                              no-unused-vars
+  7:832708   warning  'objHasKeys' is not defined                                                no-undef
+  7:832794   warning  'r' is defined but never used                                              no-unused-vars
+  7:834296   warning  'i' is defined but never used                                              no-unused-vars
+  7:834343   warning  'r' is defined but never used                                              no-unused-vars
+  7:834716   warning  'e' is defined but never used                                              no-unused-vars
+  7:834951   warning  't' is defined but never used                                              no-unused-vars
+  7:834953   warning  'e' is defined but never used                                              no-unused-vars
+  7:834982   warning  'e' is defined but never used                                              no-unused-vars
+  7:835399   warning  'e' is defined but never used                                              no-unused-vars
+  7:835486   warning  'e' is defined but never used                                              no-unused-vars
+  7:835488   warning  'r' is defined but never used                                              no-unused-vars
+  7:835713   warning  't' is defined but never used                                              no-unused-vars
+  7:835715   warning  'e' is defined but never used                                              no-unused-vars
+  7:835805   warning  't' is defined but never used                                              no-unused-vars
+  7:835807   warning  'e' is defined but never used                                              no-unused-vars
+  7:835865   warning  't' is defined but never used                                              no-unused-vars
+  7:835867   warning  'e' is defined but never used                                              no-unused-vars
+  7:835918   warning  't' is defined but never used                                              no-unused-vars
+  7:835920   warning  'e' is defined but never used                                              no-unused-vars
+  7:835984   warning  't' is defined but never used                                              no-unused-vars
+  7:835986   warning  'e' is defined but never used                                              no-unused-vars
+  7:836043   warning  't' is defined but never used                                              no-unused-vars
+  7:836045   warning  'e' is defined but never used                                              no-unused-vars
+  7:836090   warning  't' is defined but never used                                              no-unused-vars
+  7:836092   warning  'e' is defined but never used                                              no-unused-vars
+  7:836233   warning  't' is defined but never used                                              no-unused-vars
+  7:836267   warning  't' is defined but never used                                              no-unused-vars
+  7:836438   warning  't' is defined but never used                                              no-unused-vars
+  7:836440   warning  'n' is defined but never used                                              no-unused-vars
+  7:836442   warning  'i' is defined but never used                                              no-unused-vars
+  7:836508   warning  'e' is defined but never used                                              no-unused-vars
+  7:837080   warning  'e' is defined but never used                                              no-unused-vars
+  7:838910   warning  'e' is defined but never used                                              no-unused-vars
+  7:839743   warning  'e' is defined but never used                                              no-unused-vars
+  7:840077   warning  'r' is defined but never used                                              no-unused-vars
+  7:840860   warning  't' is defined but never used                                              no-unused-vars
+  7:840862   warning  'e' is defined but never used                                              no-unused-vars
+  7:842443   warning  'e' is defined but never used                                              no-unused-vars
+  7:842892   warning  'e' is defined but never used                                              no-unused-vars
+  7:843627   warning  'e' is defined but never used                                              no-unused-vars
+  7:845147   warning  'e' is defined but never used                                              no-unused-vars
+  7:845914   warning  'e' is defined but never used                                              no-unused-vars
+  7:859906   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:886312   warning  Unnecessary escape character: \#                                           no-useless-escape
+  7:886323   warning  Unnecessary escape character: \#                                           no-useless-escape
+  7:891369   warning  Unnecessary escape character: \.                                           no-useless-escape
+  7:900014   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:904069   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:920758   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:954489   warning  Expected method 'get' to always return a value                             getter-return
+  7:954593   warning  Expected method 'get' to always return a value                             getter-return
+  7:960384   warning  'i' is defined but never used                                              no-unused-vars
+  7:960386   warning  'a' is defined but never used                                              no-unused-vars
+  7:970811   warning  Unreachable code                                                           no-unreachable
+  7:971378   warning  'global' is not defined                                                    no-undef
+  7:972326   warning  'gl' is not defined                                                        no-undef
+  7:977011   warning  'h' is already defined                                                     no-redeclare
+  7:977591   warning  Setter cannot return a value                                               no-setter-return
+  7:977945   warning  Setter cannot return a value                                               no-setter-return
+  7:978460   warning  Setter cannot return a value                                               no-setter-return
+  7:978874   warning  Setter cannot return a value                                               no-setter-return
+  7:979962   warning  'i' is already defined                                                     no-redeclare
+  7:981382   warning  'r' is already defined                                                     no-redeclare
+  7:992971   warning  Unnecessary escape character: \_                                           no-useless-escape
+  7:996692   warning  't' is defined but never used                                              no-unused-vars
+  7:998928   warning  Unnecessary escape character: \#                                           no-useless-escape
+  7:999285   warning  Unnecessary escape character: \)                                           no-useless-escape
+  7:999445   warning  Unnecessary escape character: \+                                           no-useless-escape
+  7:999447   warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:999663   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:1002608  warning  'u' is already defined                                                     no-redeclare
+  7:1003426  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:1018484  warning  'l' is already defined                                                     no-redeclare
+  7:1018494  warning  'a' is already defined                                                     no-redeclare
+  7:1018504  warning  'u' is already defined                                                     no-redeclare
+  7:1018509  warning  'c' is already defined                                                     no-redeclare
+  7:1018514  warning  'o' is already defined                                                     no-redeclare
+  7:1019076  warning  'i' is already defined                                                     no-redeclare
+  7:1019199  warning  'i' is already defined                                                     no-redeclare
+  7:1019219  warning  'a' is already defined                                                     no-redeclare
+  7:1019243  warning  'o' is already defined                                                     no-redeclare
+  7:1019250  warning  's' is already defined                                                     no-redeclare
+  7:1022805  warning  'a' is already defined                                                     no-redeclare
+  7:1023069  warning  'a' is already defined                                                     no-redeclare
+  7:1023837  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1026565  warning  Empty block statement                                                      no-empty
+  7:1071964  warning  'u' is already defined                                                     no-redeclare
+  7:1074596  warning  'x' is already defined                                                     no-redeclare
+  7:1074606  warning  'b' is already defined                                                     no-redeclare
+  7:1074612  warning  '_' is already defined                                                     no-redeclare
+  7:1074637  warning  'w' is already defined                                                     no-redeclare
+  7:1074665  warning  'M' is already defined                                                     no-redeclare
+  7:1077211  warning  'd' is already defined                                                     no-redeclare
+  7:1077228  warning  'g' is already defined                                                     no-redeclare
+  7:1077332  warning  'd' is already defined                                                     no-redeclare
+  7:1077549  warning  'w' is already defined                                                     no-redeclare
+  7:1077566  warning  'M' is already defined                                                     no-redeclare
+  7:1077789  warning  'd' is already defined                                                     no-redeclare
+  7:1077806  warning  'g' is already defined                                                     no-redeclare
+  7:1077920  warning  'd' is already defined                                                     no-redeclare
+  7:1078093  warning  'k' is already defined                                                     no-redeclare
+  7:1078110  warning  'T' is already defined                                                     no-redeclare
+  7:1078163  warning  'k' is already defined                                                     no-redeclare
+  7:1078180  warning  'T' is already defined                                                     no-redeclare
+  7:1078292  warning  'A' is already defined                                                     no-redeclare
+  7:1078561  warning  'y' is already defined                                                     no-redeclare
+  7:1078578  warning  'x' is already defined                                                     no-redeclare
+  7:1078649  warning  'y' is already defined                                                     no-redeclare
+  7:1078692  warning  'x' is already defined                                                     no-redeclare
+  7:1079187  warning  'g' is already defined                                                     no-redeclare
+  7:1079204  warning  'v' is already defined                                                     no-redeclare
+  7:1079275  warning  'g' is already defined                                                     no-redeclare
+  7:1079318  warning  'v' is already defined                                                     no-redeclare
+  7:1079614  warning  'v' is already defined                                                     no-redeclare
+  7:1079621  warning  'T' is already defined                                                     no-redeclare
+  7:1079658  warning  'L' is already defined                                                     no-redeclare
+  7:1086138  warning  'a' is already defined                                                     no-redeclare
+  7:1086162  warning  'o' is already defined                                                     no-redeclare
+  7:1086431  warning  'r' is defined but never used                                              no-unused-vars
+  7:1088946  warning  'n' is already defined                                                     no-redeclare
+  7:1088974  warning  'n' is already defined                                                     no-redeclare
+  7:1088991  warning  'i' is already defined                                                     no-redeclare
+  7:1089320  warning  'n' is already defined                                                     no-redeclare
+  7:1090037  warning  'a' is already defined                                                     no-redeclare
+  7:1090112  warning  'a' is already defined                                                     no-redeclare
+  7:1090787  warning  'a' is already defined                                                     no-redeclare
+  7:1091184  warning  'o' is already defined                                                     no-redeclare
+  7:1091272  warning  'o' is already defined                                                     no-redeclare
+  7:1091304  warning  'l' is already defined                                                     no-redeclare
+  7:1091361  warning  'o' is already defined                                                     no-redeclare
+  7:1095871  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1095977  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1097517  warning  'r' is defined but never used                                              no-unused-vars
+  7:1099488  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1104755  warning  Expected method 'get' to always return a value                             getter-return
+  7:1104890  warning  Expected method 'get' to always return a value                             getter-return
+  7:1107622  warning  'i' is already defined                                                     no-redeclare
+  7:1108369  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1108444  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1110404  warning  't' is defined but never used                                              no-unused-vars
+  7:1110885  warning  'a' is already defined                                                     no-redeclare
+  7:1111184  warning  'a' is already defined                                                     no-redeclare
+  7:1111204  warning  'c' is already defined                                                     no-redeclare
+  7:1111225  warning  'd' is already defined                                                     no-redeclare
+  7:1111330  warning  'a' is already defined                                                     no-redeclare
+  7:1111398  warning  'a' is already defined                                                     no-redeclare
+  7:1111418  warning  'g' is already defined                                                     no-redeclare
+  7:1111425  warning  'v' is already defined                                                     no-redeclare
+  7:1111436  warning  'd' is already defined                                                     no-redeclare
+  7:1111679  warning  'a' is already defined                                                     no-redeclare
+  7:1111740  warning  'r' is already defined                                                     no-redeclare
+  7:1111854  warning  'g' is already defined                                                     no-redeclare
+  7:1111875  warning  'a' is already defined                                                     no-redeclare
+  7:1111946  warning  'g' is already defined                                                     no-redeclare
+  7:1112318  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1112519  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1118358  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1118559  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1121531  warning  'u' is already defined                                                     no-redeclare
+  7:1122573  warning  'u' is already defined                                                     no-redeclare
+  7:1122661  warning  'u' is already defined                                                     no-redeclare
+  7:1122739  warning  'u' is already defined                                                     no-redeclare
+  7:1124003  warning  'f' is already defined                                                     no-redeclare
+  7:1124037  warning  'f' is already defined                                                     no-redeclare
+  7:1124099  warning  'f' is already defined                                                     no-redeclare
+  7:1124245  warning  'f' is already defined                                                     no-redeclare
+  7:1124306  warning  'p' is already defined                                                     no-redeclare
+  7:1124443  warning  'f' is already defined                                                     no-redeclare
+  7:1124463  warning  'p' is already defined                                                     no-redeclare
+  7:1124586  warning  'f' is already defined                                                     no-redeclare
+  7:1124649  warning  'f' is already defined                                                     no-redeclare
+  7:1124804  warning  'p' is already defined                                                     no-redeclare
+  7:1124838  warning  'g' is already defined                                                     no-redeclare
+  7:1125537  warning  'e' is already defined                                                     no-redeclare
+  7:1125573  warning  'e' is already defined                                                     no-redeclare
+  7:1125731  warning  'i' is already defined                                                     no-redeclare
+  7:1125825  warning  'e' is already defined                                                     no-redeclare
+  7:1125859  warning  'e' is already defined                                                     no-redeclare
+  7:1125896  warning  'i' is already defined                                                     no-redeclare
+  7:1126050  warning  'e' is already defined                                                     no-redeclare
+  7:1126087  warning  'e' is already defined                                                     no-redeclare
+  7:1126206  warning  'i' is already defined                                                     no-redeclare
+  7:1126337  warning  'v' is already defined                                                     no-redeclare
+  7:1126437  warning  'v' is already defined                                                     no-redeclare
+  7:1126596  warning  'e' is already defined                                                     no-redeclare
+  7:1126681  warning  'e' is already defined                                                     no-redeclare
+  7:1126760  warning  'e' is already defined                                                     no-redeclare
+  7:1129047  warning  'n' is already defined                                                     no-redeclare
+  7:1129074  warning  'r' is already defined                                                     no-redeclare
+  7:1129078  warning  'n' is already defined                                                     no-redeclare
+  7:1129123  warning  'i' is already defined                                                     no-redeclare
+  7:1131383  warning  'e' is already defined                                                     no-redeclare
+  7:1131729  warning  's' is already defined                                                     no-redeclare
+  7:1131780  warning  's' is already defined                                                     no-redeclare
+  7:1131924  warning  's' is already defined                                                     no-redeclare
+  7:1132131  warning  's' is already defined                                                     no-redeclare
+  7:1132494  warning  'm' is already defined                                                     no-redeclare
+  7:1132790  warning  'y' is already defined                                                     no-redeclare
+  7:1133107  warning  's' is already defined                                                     no-redeclare
+  7:1133609  warning  's' is already defined                                                     no-redeclare
+  7:1135237  warning  Empty block statement                                                      no-empty
+  7:1135271  warning  Empty block statement                                                      no-empty
+  7:1136257  warning  'i' is already defined                                                     no-redeclare
+  7:1136872  warning  'h' is already defined                                                     no-redeclare
+  7:1144980  warning  Setter cannot return a value                                               no-setter-return
+  7:1145326  warning  Setter cannot return a value                                               no-setter-return
+  7:1145717  warning  Setter cannot return a value                                               no-setter-return
+  7:1145888  warning  Setter cannot return a value                                               no-setter-return
+  7:1146121  warning  Setter cannot return a value                                               no-setter-return
+  7:1146538  warning  Setter cannot return a value                                               no-setter-return
+  7:1146852  warning  Setter cannot return a value                                               no-setter-return
+  7:1146961  warning  Setter cannot return a value                                               no-setter-return
+  7:1147063  warning  Setter cannot return a value                                               no-setter-return
+  7:1150152  warning  'a' is already defined                                                     no-redeclare
+  7:1152518  warning  Setter cannot return a value                                               no-setter-return
+  7:1152591  warning  Setter cannot return a value                                               no-setter-return
+  7:1155171  warning  Setter cannot return a value                                               no-setter-return
+  7:1155292  warning  Setter cannot return a value                                               no-setter-return
+  7:1155426  warning  Setter cannot return a value                                               no-setter-return
+  7:1158062  warning  Setter cannot return a value                                               no-setter-return
+  7:1170831  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1171702  warning  Unnecessary escape character: \<                                           no-useless-escape
+  7:1171706  warning  Unnecessary escape character: \>                                           no-useless-escape
+  7:1171879  warning  Unnecessary escape character: \<                                           no-useless-escape
+  7:1171883  warning  Unnecessary escape character: \>                                           no-useless-escape
+  7:1175372  warning  Unnecessary escape character: \+                                           no-useless-escape
+  7:1184428  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1184504  warning  Unnecessary escape character: \)                                           no-useless-escape
+  7:1184533  warning  's' is already defined                                                     no-redeclare
+  7:1184562  warning  'l' is already defined                                                     no-redeclare
+  7:1185648  warning  'global' is not defined                                                    no-undef
+  7:1224561  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1224653  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1235330  warning  'n' is already defined                                                     no-redeclare
+  7:1235371  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:1239064  warning  'h' is already defined                                                     no-redeclare
+  7:1252844  warning  'global' is not defined                                                    no-undef
+  7:1254073  warning  Setter cannot return a value                                               no-setter-return
+  7:1254195  warning  Setter cannot return a value                                               no-setter-return
+  7:1254307  warning  Setter cannot return a value                                               no-setter-return
+  7:1254427  warning  Setter cannot return a value                                               no-setter-return
+  7:1254547  warning  Setter cannot return a value                                               no-setter-return
+  7:1254666  warning  Setter cannot return a value                                               no-setter-return
+  7:1254796  warning  Setter cannot return a value                                               no-setter-return
+  7:1255772  warning  'r' is defined but never used                                              no-unused-vars
+  7:1259152  warning  'ses' is not defined                                                       no-undef
+  7:1259160  warning  'ses' is not defined                                                       no-undef
+  7:1259196  warning  'ses' is not defined                                                       no-undef
+  7:1262014  warning  Read-only global 'Proxy' should not be modified                            no-global-assign
+  7:1262202  warning  Read-only global 'Proxy' should not be modified                            no-global-assign
+  7:1268393  warning  'a' is already defined                                                     no-redeclare
+  7:1268712  warning  'v' is already defined                                                     no-redeclare
+  7:1268729  warning  'm' is already defined                                                     no-redeclare
+  7:1268736  warning  'y' is already defined                                                     no-redeclare
+  7:1268756  warning  'x' is already defined                                                     no-redeclare
+  7:1268868  warning  'a' is already defined                                                     no-redeclare
+  7:1268942  warning  'a' is already defined                                                     no-redeclare
+  7:1269000  warning  'p' is already defined                                                     no-redeclare
+  7:1269043  warning  'a' is already defined                                                     no-redeclare
+  7:1269060  warning  'A' is already defined                                                     no-redeclare
+  7:1269108  warning  'p' is already defined                                                     no-redeclare
+  7:1269292  warning  'h' is already defined                                                     no-redeclare
+  7:1270272  warning  'u' is already defined                                                     no-redeclare
+  7:1270314  warning  'h' is already defined                                                     no-redeclare
+  7:1270378  warning  'f' is already defined                                                     no-redeclare
+  7:1275561  warning  'a' is already defined                                                     no-redeclare
+  7:1279787  warning  't' is defined but never used                                              no-unused-vars
+  7:1283076  warning  'h' is already defined                                                     no-redeclare
+  7:1283226  warning  'y' is already defined                                                     no-redeclare
+  7:1283303  warning  'y' is already defined                                                     no-redeclare
+  7:1283330  warning  'g' is already defined                                                     no-redeclare
+  7:1283355  warning  'x' is already defined                                                     no-redeclare
+  7:1287012  warning  't' is defined but never used                                              no-unused-vars
+  7:1289104  warning  'x' is already defined                                                     no-redeclare
+  7:1290336  warning  'r' is already defined                                                     no-redeclare
+  7:1290648  warning  't' is assigned a value but never used                                     no-unused-vars
+  7:1291075  warning  't' is already defined                                                     no-redeclare
+  7:1292652  warning  'S' is already defined                                                     no-redeclare
+  7:1292814  warning  'S' is already defined                                                     no-redeclare
+  7:1292942  warning  'a' is already defined                                                     no-redeclare
+  7:1293225  warning  'a' is already defined                                                     no-redeclare
+  7:1293265  warning  'a' is already defined                                                     no-redeclare
+  7:1293315  warning  'a' is already defined                                                     no-redeclare
+  7:1293448  warning  'a' is already defined                                                     no-redeclare
+  7:1293465  warning  'u' is already defined                                                     no-redeclare
+  7:1294356  warning  'a' is already defined                                                     no-redeclare
+  7:1294373  warning  'u' is already defined                                                     no-redeclare
+  7:1294666  warning  'a' is already defined                                                     no-redeclare
+  7:1294683  warning  'u' is already defined                                                     no-redeclare
+  7:1294952  warning  'a' is already defined                                                     no-redeclare
+  7:1294969  warning  'u' is already defined                                                     no-redeclare
+  7:1295227  warning  'a' is already defined                                                     no-redeclare
+  7:1295946  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296027  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296092  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296119  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296140  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296178  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296212  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296281  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296304  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296309  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296347  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296360  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296385  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296394  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296427  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296451  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296555  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296599  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296620  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296662  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296715  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296812  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296897  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296932  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296961  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296967  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296989  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1296998  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297072  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297079  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297094  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297118  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297130  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297138  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297188  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297192  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297245  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297251  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297266  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297270  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297292  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297304  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297365  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297423  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297470  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1297486  warning  Unnecessary escape character: \-                                           no-useless-escape
+  7:1298948  warning  Setter cannot return a value                                               no-setter-return
+  7:1299273  warning  Setter cannot return a value                                               no-setter-return
+  7:1299372  warning  Setter cannot return a value                                               no-setter-return
+  7:1299497  warning  Setter cannot return a value                                               no-setter-return
+  7:1299612  warning  Setter cannot return a value                                               no-setter-return
+  7:1299731  warning  Setter cannot return a value                                               no-setter-return
+  7:1299861  warning  Setter cannot return a value                                               no-setter-return
+  7:1305801  warning  'a' is already defined                                                     no-redeclare
+  7:1305877  warning  'c' is already defined                                                     no-redeclare
+  7:1311882  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1317801  warning  't' is defined but never used                                              no-unused-vars
+  7:1320751  warning  'i' is already defined                                                     no-redeclare
+  7:1320768  warning  'a' is already defined                                                     no-redeclare
+  7:1320775  warning  'o' is already defined                                                     no-redeclare
+  7:1320779  warning  's' is already defined                                                     no-redeclare
+  7:1320791  warning  'l' is already defined                                                     no-redeclare
+  7:1324329  warning  's' is already defined                                                     no-redeclare
+  7:1324486  warning  's' is already defined                                                     no-redeclare
+  7:1324507  warning  'h' is already defined                                                     no-redeclare
+  7:1324539  warning  'f' is already defined                                                     no-redeclare
+  7:1324674  warning  's' is already defined                                                     no-redeclare
+  7:1328681  warning  'o' is already defined                                                     no-redeclare
+  7:1328739  warning  'o' is already defined                                                     no-redeclare
+  7:1328757  warning  'l' is already defined                                                     no-redeclare
+  7:1328803  warning  'o' is already defined                                                     no-redeclare
+  7:1329089  warning  'o' is already defined                                                     no-redeclare
+  7:1329113  warning  'v' is already defined                                                     no-redeclare
+  7:1329120  warning  'l' is already defined                                                     no-redeclare
+  7:1330059  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1330484  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1331179  warning  'n' is already defined                                                     no-redeclare
+  7:1331305  warning  'n' is already defined                                                     no-redeclare
+  7:1331490  warning  'r' is already defined                                                     no-redeclare
+  7:1331527  warning  'n' is already defined                                                     no-redeclare
+  7:1332388  warning  'i' is already defined                                                     no-redeclare
+  7:1337571  warning  Duplicate key 'cool'                                                       no-dupe-keys
+  7:1343795  warning  'i' is already defined                                                     no-redeclare
+  7:1343843  warning  'i' is already defined                                                     no-redeclare
+  7:1343937  warning  'i' is already defined                                                     no-redeclare
+  7:1345443  warning  's' is already defined                                                     no-redeclare
+  7:1345811  warning  's' is already defined                                                     no-redeclare
+  7:1366443  warning  'n' is already defined                                                     no-redeclare
+  7:1366519  warning  'a' is already defined                                                     no-redeclare
+  7:1366650  warning  'i' is already defined                                                     no-redeclare
+  7:1366659  warning  'a' is already defined                                                     no-redeclare
+  7:1367260  warning  'e' is already defined                                                     no-redeclare
+  7:1367400  warning  'o' is already defined                                                     no-redeclare
+  7:1387610  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1388160  warning  't' is defined but never used                                              no-unused-vars
+  7:1394760  warning  'e' is defined but never used                                              no-unused-vars
+  7:1408408  warning  't' is defined but never used                                              no-unused-vars
+  7:1409136  warning  'e' is defined but never used                                              no-unused-vars
+  7:1409138  warning  'r' is defined but never used                                              no-unused-vars
+  7:1415703  warning  's' is defined but never used                                              no-unused-vars
+  7:1415955  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1416872  warning  'n' is defined but never used                                              no-unused-vars
+  7:1417088  warning  'i' is defined but never used                                              no-unused-vars
+  7:1417090  warning  'a' is defined but never used                                              no-unused-vars
+  7:1420858  warning  'e' is defined but never used                                              no-unused-vars
+  7:1422031  warning  'e' is defined but never used                                              no-unused-vars
+  7:1422356  warning  'e' is defined but never used                                              no-unused-vars
+  7:1422419  warning  'n' is defined but never used                                              no-unused-vars
+  7:1422568  warning  'e' is defined but never used                                              no-unused-vars
+  7:1422756  warning  'r' is defined but never used                                              no-unused-vars
+  7:1423302  warning  'e' is defined but never used                                              no-unused-vars
+  7:1423304  warning  'r' is defined but never used                                              no-unused-vars
+  7:1424292  warning  'r' is defined but never used                                              no-unused-vars
+  7:1424479  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1424967  warning  'e' is defined but never used                                              no-unused-vars
+  7:1426300  warning  'i' is defined but never used                                              no-unused-vars
+  7:1426329  warning  'r' is defined but never used                                              no-unused-vars
+  7:1427313  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1427580  warning  'e' is defined but never used                                              no-unused-vars
+  7:1431029  warning  't' is defined but never used                                              no-unused-vars
+  7:1431031  warning  'e' is defined but never used                                              no-unused-vars
+  7:1431172  warning  'e' is defined but never used                                              no-unused-vars
+  7:1431896  warning  'e' is defined but never used                                              no-unused-vars
+  7:1434464  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1446163  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1447243  warning  'r' is defined but never used                                              no-unused-vars
+  7:1453844  warning  't' is defined but never used                                              no-unused-vars
+  7:1456114  warning  Empty block statement                                                      no-empty
+  7:1459379  warning  'n' is defined but never used                                              no-unused-vars
+  7:1459381  warning  'i' is defined but never used                                              no-unused-vars
+  7:1485647  warning  'global' is not defined                                                    no-undef
+  7:1517182  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1519956  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524301  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524390  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524425  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524463  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524525  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524562  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524623  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524665  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1524711  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:1532824  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1534750  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1540878  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:1541087  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1541453  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:1541602  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:1542096  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1542123  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1542338  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1542365  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1542831  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1543100  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1544483  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1544844  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1545512  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1545539  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1546122  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1546251  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1546613  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1546860  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1552536  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1552952  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1572000  warning  'd' is already defined                                                     no-redeclare
+  7:1572155  warning  'd' is already defined                                                     no-redeclare
+  7:1572247  warning  'l' is already defined                                                     no-redeclare
+  7:1572280  warning  'l' is already defined                                                     no-redeclare
+  7:1594874  warning  'i' is defined but never used                                              no-unused-vars
+  7:1610229  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1625982  warning  'r' is defined but never used                                              no-unused-vars
+  7:1626508  warning  'r' is defined but never used                                              no-unused-vars
+  7:1626629  warning  'e' is defined but never used                                              no-unused-vars
+  7:1630911  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1637518  warning  'r' is defined but never used                                              no-unused-vars
+  7:1637887  warning  'r' is defined but never used                                              no-unused-vars
+  7:1638057  warning  'r' is defined but never used                                              no-unused-vars
+  7:1638407  warning  'r' is defined but never used                                              no-unused-vars
+  7:1638693  warning  'r' is defined but never used                                              no-unused-vars
+  7:1639356  warning  'e' is defined but never used                                              no-unused-vars
+  7:1660374  warning  'g' is already defined                                                     no-redeclare
+  7:1662038  warning  't' is defined but never used                                              no-unused-vars
+  7:1662040  warning  'e' is defined but never used                                              no-unused-vars
+  7:1665047  warning  't' is defined but never used                                              no-unused-vars
+  7:1665049  warning  'e' is defined but never used                                              no-unused-vars
+  7:1672925  warning  'r' is defined but never used                                              no-unused-vars
+  7:1673784  warning  'r' is defined but never used                                              no-unused-vars
+  7:1674137  warning  'r' is defined but never used                                              no-unused-vars
+  7:1674246  warning  'e' is defined but never used                                              no-unused-vars
+  7:1674399  warning  'e' is defined but never used                                              no-unused-vars
+  7:1674695  warning  'e' is defined but never used                                              no-unused-vars
+  7:1682680  warning  'e' is defined but never used                                              no-unused-vars
+  7:1683281  warning  'r' is defined but never used                                              no-unused-vars
+  7:1684392  warning  Unexpected control character(s) in regular expression: \x1b                no-control-regex
+  7:1687491  warning  'global' is not defined                                                    no-undef
+  7:1688243  warning  Unnecessary escape character: \(                                           no-useless-escape
+  7:1690076  warning  Empty block statement                                                      no-empty
+  7:1690091  warning  Do not access Object.prototype method 'isPrototypeOf' from target object   no-prototype-builtins
+  7:1691972  warning  'global' is not defined                                                    no-undef
+  7:1692427  warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  7:1696394  warning  'global' is not defined                                                    no-undef
+  7:1711706  warning  'global' is not defined                                                    no-undef
+  7:1712093  warning  'require' is not defined                                                   no-undef
+  7:1712396  warning  'require' is not defined                                                   no-undef
+  7:1712458  warning  'r' is defined but never used                                              no-unused-vars
+  7:1717910  warning  'r' is defined but never used                                              no-unused-vars
+  7:1719566  warning  'r' is defined but never used                                              no-unused-vars
+  7:1722477  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1724726  warning  'r' is defined but never used                                              no-unused-vars
+  7:1726699  warning  'r' is defined but never used                                              no-unused-vars
+  7:1727604  warning  'r' is defined but never used                                              no-unused-vars
+  7:1727875  warning  'r' is defined but never used                                              no-unused-vars
+  7:1728098  warning  'r' is defined but never used                                              no-unused-vars
+  7:1730316  warning  'r' is defined but never used                                              no-unused-vars
+  7:1736636  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:1736751  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:1736990  warning  Empty block statement                                                      no-empty
+  7:1737015  warning  'r' is defined but never used                                              no-unused-vars
+  7:1740033  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1743004  warning  'r' is defined but never used                                              no-unused-vars
+  7:1743674  warning  'r' is defined but never used                                              no-unused-vars
+  7:1745379  warning  'r' is defined but never used                                              no-unused-vars
+  7:1746801  warning  'r' is defined but never used                                              no-unused-vars
+  7:1747385  warning  'r' is defined but never used                                              no-unused-vars
+  7:1750344  warning  'r' is defined but never used                                              no-unused-vars
+  7:1750710  warning  'r' is defined but never used                                              no-unused-vars
+  7:1752633  warning  'r' is defined but never used                                              no-unused-vars
+  7:1753437  warning  'r' is defined but never used                                              no-unused-vars
+  7:1756646  warning  'r' is defined but never used                                              no-unused-vars
+  7:1757321  warning  'r' is defined but never used                                              no-unused-vars
+  7:1757768  warning  'r' is defined but never used                                              no-unused-vars
+  7:1758451  warning  'r' is defined but never used                                              no-unused-vars
+  7:1758931  warning  'r' is defined but never used                                              no-unused-vars
+  7:1765103  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1765145  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1765187  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1765229  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1765271  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1768277  warning  'r' is defined but never used                                              no-unused-vars
+  7:1768833  warning  'r' is defined but never used                                              no-unused-vars
+  7:1772979  warning  'r' is defined but never used                                              no-unused-vars
+  7:1773833  warning  'r' is defined but never used                                              no-unused-vars
+  7:1775684  warning  'r' is defined but never used                                              no-unused-vars
+  7:1776659  warning  'r' is defined but never used                                              no-unused-vars
+  7:1777640  warning  'r' is defined but never used                                              no-unused-vars
+  7:1777763  warning  'r' is defined but never used                                              no-unused-vars
+  7:1777817  warning  'r' is defined but never used                                              no-unused-vars
+  7:1796503  warning  'r' is defined but never used                                              no-unused-vars
+  7:1796786  warning  'r' is defined but never used                                              no-unused-vars
+  7:1796946  warning  'r' is defined but never used                                              no-unused-vars
+  7:1799219  warning  'r' is defined but never used                                              no-unused-vars
+  7:1801935  warning  'r' is defined but never used                                              no-unused-vars
+  7:1802142  warning  'r' is defined but never used                                              no-unused-vars
+  7:1805530  warning  'r' is defined but never used                                              no-unused-vars
+  7:1805888  warning  'r' is defined but never used                                              no-unused-vars
+  7:1806097  warning  'r' is defined but never used                                              no-unused-vars
+  7:1811567  warning  'r' is defined but never used                                              no-unused-vars
+  7:1813401  warning  'r' is defined but never used                                              no-unused-vars
+  7:1824051  warning  'r' is defined but never used                                              no-unused-vars
+  7:1826258  warning  'r' is defined but never used                                              no-unused-vars
+  7:1826298  warning  'r' is defined but never used                                              no-unused-vars
+  7:1829237  warning  'r' is defined but never used                                              no-unused-vars
+  7:1829398  warning  'r' is defined but never used                                              no-unused-vars
+  7:1829863  warning  'r' is defined but never used                                              no-unused-vars
+  7:1830015  warning  'r' is defined but never used                                              no-unused-vars
+  7:1835763  warning  'r' is defined but never used                                              no-unused-vars
+  7:1835964  warning  'r' is defined but never used                                              no-unused-vars
+  7:1836768  warning  'r' is defined but never used                                              no-unused-vars
+  7:1837276  warning  'r' is defined but never used                                              no-unused-vars
+  7:1838378  warning  'r' is defined but never used                                              no-unused-vars
+  7:1840170  warning  'r' is defined but never used                                              no-unused-vars
+  7:1849042  warning  'r' is defined but never used                                              no-unused-vars
+  7:1849392  warning  'r' is defined but never used                                              no-unused-vars
+  7:1853024  warning  'r' is defined but never used                                              no-unused-vars
+  7:1853189  warning  'r' is defined but never used                                              no-unused-vars
+  7:1853677  warning  'r' is defined but never used                                              no-unused-vars
+  7:1854457  warning  'r' is defined but never used                                              no-unused-vars
+  7:1854654  warning  'r' is defined but never used                                              no-unused-vars
+  7:1862469  warning  'r' is defined but never used                                              no-unused-vars
+  7:1863704  warning  'r' is defined but never used                                              no-unused-vars
+  7:1865096  warning  'r' is defined but never used                                              no-unused-vars
+  7:1866251  warning  'r' is defined but never used                                              no-unused-vars
+  7:1867778  warning  'r' is defined but never used                                              no-unused-vars
+  7:1868896  warning  'r' is defined but never used                                              no-unused-vars
+  7:1869382  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1877621  warning  'r' is defined but never used                                              no-unused-vars
+  7:1879660  warning  'r' is defined but never used                                              no-unused-vars
+  7:1882578  warning  'r' is defined but never used                                              no-unused-vars
+  7:1885660  warning  'r' is defined but never used                                              no-unused-vars
+  7:1888774  warning  'r' is defined but never used                                              no-unused-vars
+  7:1891501  warning  'r' is defined but never used                                              no-unused-vars
+  7:1894554  warning  'r' is defined but never used                                              no-unused-vars
+  7:1898706  warning  'r' is defined but never used                                              no-unused-vars
+  7:1899309  warning  'r' is defined but never used                                              no-unused-vars
+  7:1899876  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:1901115  warning  'r' is defined but never used                                              no-unused-vars
+  7:1901784  warning  'r' is defined but never used                                              no-unused-vars
+  7:1904052  warning  'r' is defined but never used                                              no-unused-vars
+  7:1905784  warning  'r' is defined but never used                                              no-unused-vars
+  7:1910196  warning  't' is defined but never used                                              no-unused-vars
+  7:1915183  warning  'r' is defined but never used                                              no-unused-vars
+  7:1916922  warning  'r' is defined but never used                                              no-unused-vars
+  7:1918142  warning  'r' is defined but never used                                              no-unused-vars
+  7:1918885  warning  'r' is defined but never used                                              no-unused-vars
+  7:1920880  warning  'r' is defined but never used                                              no-unused-vars
+  7:1982707  warning  'r' is defined but never used                                              no-unused-vars
+  7:1984955  warning  'r' is defined but never used                                              no-unused-vars
+  7:1988510  warning  'r' is defined but never used                                              no-unused-vars
+  7:1990501  warning  'r' is defined but never used                                              no-unused-vars
+  7:1991460  warning  'r' is defined but never used                                              no-unused-vars
+  7:1994547  warning  'r' is defined but never used                                              no-unused-vars
+  7:1995129  warning  'r' is defined but never used                                              no-unused-vars
+  7:1996216  warning  'r' is defined but never used                                              no-unused-vars
+  7:1998641  warning  'r' is defined but never used                                              no-unused-vars
+  7:1999129  warning  'r' is defined but never used                                              no-unused-vars
+  7:2001624  warning  'r' is defined but never used                                              no-unused-vars
+  7:2003374  warning  'r' is defined but never used                                              no-unused-vars
+  7:2013959  warning  'r' is defined but never used                                              no-unused-vars
+  7:2019571  warning  'r' is defined but never used                                              no-unused-vars
+  7:2020490  warning  'r' is defined but never used                                              no-unused-vars
+  7:2023212  warning  'r' is defined but never used                                              no-unused-vars
+  7:2025982  warning  'r' is defined but never used                                              no-unused-vars
+  7:2027907  warning  'r' is defined but never used                                              no-unused-vars
+  7:2029678  warning  'r' is defined but never used                                              no-unused-vars
+  7:2032410  warning  'r' is defined but never used                                              no-unused-vars
+  7:2035275  warning  'r' is defined but never used                                              no-unused-vars
+  7:2035654  warning  'r' is defined but never used                                              no-unused-vars
+  7:2035871  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2035953  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2036081  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2036167  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2036189  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2037626  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2037648  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2037690  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2037712  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2038214  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2038375  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2039011  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2039270  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2039292  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2039833  warning  'r' is defined but never used                                              no-unused-vars
+  7:2039972  warning  'r' is defined but never used                                              no-unused-vars
+  7:2041750  warning  'r' is defined but never used                                              no-unused-vars
+  7:2042946  warning  'r' is defined but never used                                              no-unused-vars
+  7:2043956  warning  'r' is defined but never used                                              no-unused-vars
+  7:2044808  warning  'r' is defined but never used                                              no-unused-vars
+  7:2045930  warning  'r' is defined but never used                                              no-unused-vars
+  7:2046753  warning  'r' is defined but never used                                              no-unused-vars
+  7:2048142  warning  'r' is defined but never used                                              no-unused-vars
+  7:2049193  warning  'r' is defined but never used                                              no-unused-vars
+  7:2056211  warning  'r' is defined but never used                                              no-unused-vars
+  7:2059265  warning  'r' is defined but never used                                              no-unused-vars
+  7:2060181  warning  'r' is defined but never used                                              no-unused-vars
+  7:2060792  warning  'r' is defined but never used                                              no-unused-vars
+  7:2062550  warning  'r' is defined but never used                                              no-unused-vars
+  7:2064180  warning  'r' is defined but never used                                              no-unused-vars
+  7:2064756  warning  'r' is defined but never used                                              no-unused-vars
+  7:2065521  warning  'r' is defined but never used                                              no-unused-vars
+  7:2066359  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:2070567  warning  'r' is defined but never used                                              no-unused-vars
+  7:2071154  warning  'r' is defined but never used                                              no-unused-vars
+  7:2074091  warning  'r' is defined but never used                                              no-unused-vars
+  7:2074308  warning  'r' is defined but never used                                              no-unused-vars
+  7:2074469  warning  'r' is defined but never used                                              no-unused-vars
+  7:2074954  warning  'r' is defined but never used                                              no-unused-vars
+  7:2075281  warning  'r' is defined but never used                                              no-unused-vars
+  7:2076165  warning  'r' is defined but never used                                              no-unused-vars
+  7:2077418  warning  'r' is defined but never used                                              no-unused-vars
+  7:2079362  warning  'r' is defined but never used                                              no-unused-vars
+  7:2083009  warning  'r' is defined but never used                                              no-unused-vars
+  7:2083645  warning  'r' is defined but never used                                              no-unused-vars
+  7:2083711  warning  'r' is defined but never used                                              no-unused-vars
+  7:2107477  warning  'r' is defined but never used                                              no-unused-vars
+  7:2108035  warning  'r' is defined but never used                                              no-unused-vars
+  7:2109489  warning  'r' is defined but never used                                              no-unused-vars
+  7:2109871  warning  'r' is defined but never used                                              no-unused-vars
+  7:2110064  warning  'r' is defined but never used                                              no-unused-vars
+  7:2110259  warning  'r' is defined but never used                                              no-unused-vars
+  7:2110535  warning  'r' is defined but never used                                              no-unused-vars
+  7:2110642  warning  'r' is defined but never used                                              no-unused-vars
+  7:2110784  warning  'r' is defined but never used                                              no-unused-vars
+  7:2110988  warning  'r' is defined but never used                                              no-unused-vars
+  7:2112267  warning  'r' is defined but never used                                              no-unused-vars
+  7:2113117  warning  'r' is defined but never used                                              no-unused-vars
+  7:2113378  warning  'r' is defined but never used                                              no-unused-vars
+  7:2113747  warning  'r' is defined but never used                                              no-unused-vars
+  7:2113953  warning  'r' is defined but never used                                              no-unused-vars
+  7:2114477  warning  'r' is defined but never used                                              no-unused-vars
+  7:2115196  warning  'r' is defined but never used                                              no-unused-vars
+  7:2115989  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:2116100  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  7:2117066  warning  'r' is defined but never used                                              no-unused-vars
+  7:2120707  warning  'r' is defined but never used                                              no-unused-vars
+  7:2121116  warning  'r' is defined but never used                                              no-unused-vars
+  7:2123544  warning  'r' is defined but never used                                              no-unused-vars
+  7:2123670  warning  'r' is defined but never used                                              no-unused-vars
+  7:2124328  warning  'r' is defined but never used                                              no-unused-vars
+  7:2124778  warning  'r' is defined but never used                                              no-unused-vars
+  7:2125587  warning  'r' is defined but never used                                              no-unused-vars
+  7:2125712  warning  'r' is defined but never used                                              no-unused-vars
+  7:2126990  warning  'r' is defined but never used                                              no-unused-vars
+  7:2128202  warning  'r' is defined but never used                                              no-unused-vars
+  7:2128461  warning  'r' is defined but never used                                              no-unused-vars
+  7:2129661  warning  'r' is defined but never used                                              no-unused-vars
+  7:2130112  warning  'r' is defined but never used                                              no-unused-vars
+  7:2132011  warning  'r' is defined but never used                                              no-unused-vars
+  7:2132459  warning  'r' is defined but never used                                              no-unused-vars
+  7:2133201  warning  'r' is defined but never used                                              no-unused-vars
+  7:2133887  warning  'r' is defined but never used                                              no-unused-vars
+  7:2135134  warning  'r' is defined but never used                                              no-unused-vars
+  7:2136188  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2136462  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2141754  warning  'r' is defined but never used                                              no-unused-vars
+  7:2142305  warning  'r' is defined but never used                                              no-unused-vars
+  7:2158969  warning  'r' is defined but never used                                              no-unused-vars
+  7:2163108  warning  'r' is defined but never used                                              no-unused-vars
+  7:2163518  warning  'r' is defined but never used                                              no-unused-vars
+  7:2164014  warning  'r' is defined but never used                                              no-unused-vars
+  7:2165182  warning  'r' is defined but never used                                              no-unused-vars
+  7:2166168  warning  'r' is defined but never used                                              no-unused-vars
+  7:2167413  warning  'r' is defined but never used                                              no-unused-vars
+  7:2168304  warning  'r' is defined but never used                                              no-unused-vars
+  7:2169490  warning  'r' is defined but never used                                              no-unused-vars
+  7:2170174  warning  'r' is defined but never used                                              no-unused-vars
+  7:2171636  warning  'r' is defined but never used                                              no-unused-vars
+  7:2172225  warning  'r' is defined but never used                                              no-unused-vars
+  7:2172752  warning  'r' is defined but never used                                              no-unused-vars
+  7:2173537  warning  'r' is defined but never used                                              no-unused-vars
+  7:2176066  warning  'r' is defined but never used                                              no-unused-vars
+  7:2177113  warning  'r' is defined but never used                                              no-unused-vars
+  7:2177515  warning  'r' is defined but never used                                              no-unused-vars
+  7:2178257  warning  'r' is defined but never used                                              no-unused-vars
+  7:2179984  warning  'r' is defined but never used                                              no-unused-vars
+  7:2183249  warning  'r' is defined but never used                                              no-unused-vars
+  7:2184222  warning  'r' is defined but never used                                              no-unused-vars
+  7:2184493  warning  'r' is defined but never used                                              no-unused-vars
+  7:2184953  warning  'r' is defined but never used                                              no-unused-vars
+  7:2185418  warning  'r' is defined but never used                                              no-unused-vars
+  7:2185886  warning  'r' is defined but never used                                              no-unused-vars
+  7:2186730  warning  'r' is defined but never used                                              no-unused-vars
+  7:2187635  warning  'r' is defined but never used                                              no-unused-vars
+  7:2192116  warning  'r' is defined but never used                                              no-unused-vars
+  7:2195357  warning  'r' is defined but never used                                              no-unused-vars
+  7:2196201  warning  'r' is defined but never used                                              no-unused-vars
+  7:2200021  warning  'r' is defined but never used                                              no-unused-vars
+  7:2200807  warning  'r' is defined but never used                                              no-unused-vars
+  7:2201134  warning  'r' is defined but never used                                              no-unused-vars
+  7:2208284  warning  'r' is defined but never used                                              no-unused-vars
+  7:2212975  warning  'r' is defined but never used                                              no-unused-vars
+  7:2215160  warning  'r' is defined but never used                                              no-unused-vars
+  7:2218257  warning  'r' is defined but never used                                              no-unused-vars
+  7:2224500  warning  'r' is defined but never used                                              no-unused-vars
+  7:2226009  warning  'r' is defined but never used                                              no-unused-vars
+  7:2226320  warning  'r' is defined but never used                                              no-unused-vars
+  7:2228776  warning  'r' is defined but never used                                              no-unused-vars
+  7:2235939  warning  'e' is defined but never used                                              no-unused-vars
+  7:2236976  warning  'r' is defined but never used                                              no-unused-vars
+  7:2239391  warning  'r' is defined but never used                                              no-unused-vars
+  7:2242121  warning  'r' is defined but never used                                              no-unused-vars
+  7:2250063  warning  'r' is defined but never used                                              no-unused-vars
+  7:2251083  warning  'r' is defined but never used                                              no-unused-vars
+  7:2252841  warning  'r' is defined but never used                                              no-unused-vars
+  7:2254123  warning  't' is defined but never used                                              no-unused-vars
+  7:2254125  warning  'e' is defined but never used                                              no-unused-vars
+  7:2254127  warning  'r' is defined but never used                                              no-unused-vars
+  7:2254154  warning  'r' is defined but never used                                              no-unused-vars
+  7:2256649  warning  'r' is defined but never used                                              no-unused-vars
+  7:2257414  warning  'r' is defined but never used                                              no-unused-vars
+  7:2261060  warning  'r' is defined but never used                                              no-unused-vars
+  7:2264767  warning  'r' is defined but never used                                              no-unused-vars
+  7:2265955  warning  'r' is defined but never used                                              no-unused-vars
+  7:2269867  warning  'r' is defined but never used                                              no-unused-vars
+  7:2272874  warning  'r' is defined but never used                                              no-unused-vars
+  7:2274184  warning  'r' is defined but never used                                              no-unused-vars
+  7:2291471  warning  'r' is defined but never used                                              no-unused-vars
+  7:2297000  warning  'r' is defined but never used                                              no-unused-vars
+  7:2298297  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:2301116  warning  'r' is defined but never used                                              no-unused-vars
+  7:2304642  warning  'r' is defined but never used                                              no-unused-vars
+  7:2305653  warning  'r' is defined but never used                                              no-unused-vars
+  7:2305885  warning  'r' is defined but never used                                              no-unused-vars
+  7:2305926  warning  'r' is defined but never used                                              no-unused-vars
+  7:2306394  warning  'r' is defined but never used                                              no-unused-vars
+  7:2306507  warning  'r' is defined but never used                                              no-unused-vars
+  7:2306830  warning  'r' is defined but never used                                              no-unused-vars
+  7:2308867  warning  'r' is defined but never used                                              no-unused-vars
+  7:2310370  warning  'r' is defined but never used                                              no-unused-vars
+  7:2311865  warning  'r' is defined but never used                                              no-unused-vars
+  7:2311981  warning  'r' is defined but never used                                              no-unused-vars
+  7:2313537  warning  'r' is defined but never used                                              no-unused-vars
+  7:2315642  warning  'r' is defined but never used                                              no-unused-vars
+  7:2318573  warning  'r' is defined but never used                                              no-unused-vars
+  7:2321414  warning  Unnecessary escape character: \/                                           no-useless-escape
+  7:2321493  warning  'r' is defined but never used                                              no-unused-vars
+  7:2325613  warning  'r' is defined but never used                                              no-unused-vars
+  7:2326067  warning  'r' is defined but never used                                              no-unused-vars
+  7:2327826  warning  'r' is defined but never used                                              no-unused-vars
+  7:2327980  warning  'r' is defined but never used                                              no-unused-vars
+  7:2329092  warning  'r' is defined but never used                                              no-unused-vars
+  7:2331920  warning  Unexpected control character(s) in regular expression: \x00, \x00          no-control-regex
+  7:2331932  warning  Unnecessary escape character: \,                                           no-useless-escape
+  7:2331951  warning  Unnecessary escape character: \(                                           no-useless-escape
+  7:2331953  warning  Unnecessary escape character: \)                                           no-useless-escape
+  7:2331958  warning  Unnecessary escape character: \,                                           no-useless-escape
+  7:2331961  warning  Unnecessary escape character: \:                                           no-useless-escape
+  7:2331966  warning  Unnecessary escape character: \/                                           no-useless-escape
+  7:2331968  warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:2331972  warning  Unnecessary escape character: \?                                           no-useless-escape
+  7:2331974  warning  Unnecessary escape character: \=                                           no-useless-escape
+  7:2331976  warning  Unnecessary escape character: \{                                           no-useless-escape
+  7:2331978  warning  Unnecessary escape character: \}                                           no-useless-escape
+  7:2331990  warning  Unnecessary escape character: \=                                           no-useless-escape
+  7:2332007  warning  Unnecessary escape character: \(                                           no-useless-escape
+  7:2332009  warning  Unnecessary escape character: \)                                           no-useless-escape
+  7:2332014  warning  Unnecessary escape character: \,                                           no-useless-escape
+  7:2332017  warning  Unnecessary escape character: \:                                           no-useless-escape
+  7:2332022  warning  Unnecessary escape character: \/                                           no-useless-escape
+  7:2332024  warning  Unnecessary escape character: \[                                           no-useless-escape
+  7:2332028  warning  Unnecessary escape character: \?                                           no-useless-escape
+  7:2332030  warning  Unnecessary escape character: \=                                           no-useless-escape
+  7:2332032  warning  Unnecessary escape character: \{                                           no-useless-escape
+  7:2332034  warning  Unnecessary escape character: \}                                           no-useless-escape
+  7:2332047  warning  Unnecessary escape character: \"                                           no-useless-escape
+  7:2332066  warning  Unnecessary escape character: \"                                           no-useless-escape
+  7:2332372  warning  'r' is defined but never used                                              no-unused-vars
+  7:2333021  warning  'r' is defined but never used                                              no-unused-vars
+  7:2334768  warning  'r' is defined but never used                                              no-unused-vars
+  7:2336486  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  7:2337694  warning  'r' is defined but never used                                              no-unused-vars
+  7:2338202  warning  'global' is not defined                                                    no-undef
+  7:2346824  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:2349957  warning  'r' is defined but never used                                              no-unused-vars
+  7:2398189  warning  'r' is defined but never used                                              no-unused-vars
+  7:2409747  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7:2410114  warning  'l' is already defined                                                     no-redeclare
+  7:2410245  warning  'l' is already defined                                                     no-redeclare
+  7:2410361  warning  'l' is already defined                                                     no-redeclare
+  7:2411462  warning  's' is already defined                                                     no-redeclare
+  7:2411583  warning  'a' is already defined                                                     no-redeclare
+
+/home/runner/work/exp-z-transform-iiith/exp-z-transform-iiith/experiment/simulation/js/render.js
+  1:66    warning  'module' is not defined                                                    no-undef
+  1:83    warning  'require' is not defined                                                   no-undef
+  1:128   warning  'define' is not defined                                                    no-undef
+  1:139   warning  'define' is not defined                                                    no-undef
+  1:184   warning  'exports' is not defined                                                   no-undef
+  1:214   warning  'require' is not defined                                                   no-undef
+  1:2799  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+
+✖ 1530 problems (0 errors, 1530 warnings)
+

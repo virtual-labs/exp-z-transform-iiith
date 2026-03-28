@@ -1,0 +1,61 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "For a causal system ",
+      "answers": {
+        "a": "The ROC is outside the outermost pole ",
+        "b": "The ROC includes the unit circle ",
+        "c": "The ROC is the entire z-plane ",
+        "d": "The ROC is inside the unit circle "
+      },
+      "explanations": {
+        "explanations": " The ROC is outside the outermost pole"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a stable system ",
+      "answers": {
+        "a": "The ROC includes the unit circle",
+        "b": "The ROC is outside the unit circle ",
+        "c": "The ROC is inside the unit circle ",
+        "d": "The ROC is the entire z-plane "
+      },
+      "explanations": {
+        "explanations": "The ROC includes the unit circle"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is the definition of the Z-transform?",
+      "answers": {
+        "a": "Sum of $x[n] z^n$ over all n",
+        "b": "Sum of $x[n]z^{-n}$ over all n",
+        "c": "Sum of $x[n]e^{jn}$ over all n",
+        "d": "Sum of $x[n]e^{-jn}$ over all n"
+      },
+      "explanations": {
+        "explanations": "The Z-transform is defined as sum of $x[n]z^{-n}$ over all n."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the ROC for a two-sided sequence?",
+      "answers": {
+        "a": "A ring in the z-plane",
+        "b": "Inside the innermost pole",
+        "c": "Outside the outermost pole",
+        "d": "Entire z-plane"
+      },
+      "explanations": {
+        "explanations": "For two-sided sequences, the ROC is a ring in the z-plane."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
